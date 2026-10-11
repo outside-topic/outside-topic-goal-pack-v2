@@ -1,0 +1,196 @@
+﻿Structure: Meta title and description; H1 with board, level, subject and code; 80–120 word intro; Syllabus overview; How the exam works (papers, durations, weightings); How we teach it; Schedule and batches; Your teacher; Subject FAQs (FAQPage schema); CTA; internal links up to the programme, across to related subjects and down to Apply. A complete worked example is in Section 15. # 7. How It Works pages
+7. How It Works
+7.1 Our Online Classroom (/how-it-works/)
+Meta title: How Online O & A Level Classes Work | GOALPAc
+Meta description: See how GOALPAc’s live online classes work: interactive lessons, recordings, quizzes, progress reports and mentoring for O and A Level students.
+H1: How Learning at GOALPAc Works
+Learning online at GOALPAc feels like being in a focused, well-run classroom, without the commute. A typical week:
+Live classes: 60–90 minute interactive lessons with a digital whiteboard, polls and breakout problem-solving.
+Recordings: available in your portal within 24 hours.
+Homework and quizzes: short weekly tasks marked with feedback.
+Doubt-clearing clinic: a weekly drop-in session per subject.
+Mentor check-in: a short monthly 1:1 conversation about progress and wellbeing.
+What you need: a laptop or tablet, a stable connection (5 Mbps or more), headphones with a microphone and a quiet space. Cameras on during class for participation and safeguarding.
+Class rules: join on time, camera on, respectful chat, submit work by the deadline. Students missing three classes in a row receive a mentor call and parents are informed.
+7.2 Class Schedules & Time Zones (/how-it-works/schedules-time-zones/)
+Meta title: O & A Level Online Class Timings for Every Time Zone | GOALPAc
+Meta description: Find GOALPAc class batches for Asia, the Middle East, Africa, Europe and the Americas. View timings in your local time zone and pick your batch.
+H1: Class Schedules for Every Time Zone
+Batch region
+Example coverage
+Weekday slot (local)
+Weekend slot (local)
+South Asia
+Bangladesh, India, Pakistan, Nepal, Sri Lanka
+5:00–8:00 pm
+10:00 am–1:00 pm
+Middle East
+UAE, Saudi Arabia, Qatar, Oman, Kuwait
+4:00–7:00 pm
+10:00 am–1:00 pm
+Africa
+Nigeria, Kenya, Ghana, Zimbabwe, Egypt
+4:00–7:00 pm
+9:00 am–12:00 pm
+South-East Asia
+Malaysia, Singapore, Brunei, Indonesia
+5:00–8:00 pm
+10:00 am–1:00 pm
+Europe & UK
+UK, Europe
+5:00–8:00 pm
+10:00 am–1:00 pm
+Americas
+USA, Canada, Caribbean
+5:00–8:00 pm
+10:00 am–1:00 pm
+Indicative slots for launch. A batch opens when it reaches the minimum group size (suggested: 5 students).
+7.3 Learning Platform & Recordings (/how-it-works/learning-platform/)
+Meta title: GOALPAc Student Portal & Online Learning Platform
+H1: Your Student Portal: Everything in One Place
+Features: join-class button, recordings library by topic, notes and worksheets, online quizzes with instant scores, assignment upload, progress dashboard, parent view, announcements and messages.
+7.4 Assessments & Progress Reports (/how-it-works/assessments-progress/)
+Meta title: Assessments & Progress Reports | GOALPAc Online Academy
+H1: How We Measure Progress
+Assessment
+Frequency
+What it measures
+Who sees results
+Placement test
+On joining
+Starting grade and gaps
+Student, parent, teacher
+Topic quiz
+Weekly
+Understanding of the week’s topic
+Student, teacher
+Timed paper
+Monthly
+Exam technique and timing
+Student, parent, teacher
+Mock exam
+Twice before the exam
+Predicted grade under exam conditions
+Student, parent, teacher
+Progress report
+Monthly
+Attendance, scores, effort, next steps
+Parent and student
+7.5 Free Trial Class (/how-it-works/free-trial/)
+Meta title: Book a Free Online O or A Level Trial Class | GOALPAc
+Meta description: Join a live GOALPAc class free. Choose your board, level and subject, meet the teacher and experience online learning before you enrol.
+H1: Book Your Free Trial Class
+Form fields: student name, parent name, email, WhatsApp number, country / time zone, exam board, level, subject(s), current school year, preferred days, how did you hear about us, privacy consent.
+After submission: thank-you page and confirmation email with joining link and checklist; admissions follow-up within 24 hours.
+8. Admissions and Fees pages
+8.1 How to Apply (/admissions/)
+Meta title: Admissions | Join GOALPAc Online O & A Level Academy
+Meta description: Apply to GOALPAc in four simple steps: free trial, placement assessment, study plan and enrolment. Rolling admissions for students worldwide.
+H1: Join GOALPAc in four steps, usually within a week.
+Book a free trial class: experience a live lesson in your subject.
+Take the placement assessment: a short online test and a call with an academic adviser.
+Receive your study plan: subjects, batch, timetable and fees confirmed in writing.
+Enrol and start learning: pay securely and receive your portal login.
+Entry requirements: O Level / IGCSE: completed Grade 8 or equivalent. AS & A Level: O Level / IGCSE (or equivalent) in related subjects. Private candidates and home-schooled students welcome.
+Documents needed: student ID or passport copy, latest school report or previous results (if available), parent / guardian contact details.
+8.2 Placement Assessment (/admissions/placement-assessment/)
+45-minute online test per subject, auto-marked plus teacher review; 15-minute adviser call; parent receives a one-page baseline report with recommended course and batch.
+8.3 Fees & Study Plans (/admissions/fees/)
+Meta title: Online O Level & A Level Tuition Fees | GOALPAc
+Meta description: Transparent fees for GOALPAc online O Level, IGCSE and A Level classes. Monthly, termly and annual plans with sibling and multi-subject discounts.
+H1: Fees & Study Plans
+Plan
+Includes
+Fee per subject (USD)
+Best for
+Monthly Plan
+Live classes, recordings, quizzes, monthly report
+[Set price] / month
+Trying GOALPAc, short-term needs
+Term Plan (4 months)
+Monthly Plan + one timed mock
+[Set price] / term (about 10% saving)
+Most students
+Annual Plan (12 months)
+Term Plan + two full mocks + priority batch choice
+[Set price] / year (about 20% saving)
+Committed full-course students
+Crash Course
+6–8 week bootcamp + two mocks
+[Set price] / course
+Final exam preparation
+1:1 Tutoring
+Packages of 8, 16 or 24 hours
+[Set price] / hour
+Personal attention
+Discounts: 3+ subjects 10%; siblings 10% for each additional child; early-bird enrolment 5%.
+Payment methods: international cards, PayPal / Stripe, bank transfer and approved local options.
+Not included: exam board registration and exam-centre fees, paid directly to the exam centre.
+8.4 Scholarships (/admissions/scholarships/)
+Merit Scholarship (25–50% for outstanding previous results or placement scores); Opportunity Scholarship (need-based, limited places per intake); sibling discount; deadlines per intake; renewal conditions (attendance and progress).
+8.5 Academic Calendar & Intakes (/admissions/calendar/)
+Intake
+Starts
+Suited for
+Main intake
+August / September
+Full two-year and one-year courses for May/June exams
+January intake
+January
+Fast track, retakes and Oct/Nov candidates
+Spring bootcamps
+February–April
+Crash courses for the May/June series
+Summer bootcamps
+July–September
+Crash courses for the Oct/Nov and January series
+8.6 Apply Now (/admissions/apply/)
+Form sections: student details, parent / guardian details, country and time zone, board, level and subjects, target exam series, previous results (optional), preferred plan, scholarship interest, consent to Terms, Privacy and Safeguarding policies.
+9. Exam Centre pages
+9.1 Exam Series & Key Dates (/exams/exam-dates/)
+Meta title: O Level & A Level Exam Dates (Cambridge & Edexcel) | GOALPAc
+H1: O Level and A Level Exam Series and Key Dates
+Board and qualification
+Main exam series
+Typical results release
+Cambridge O Level, IGCSE, AS & A Level
+May/June and October/November (March series in India only)
+August (May/June); January (Oct/Nov)
+Pearson Edexcel International GCSE
+May/June; January and November for selected subjects
+August; March; January
+Pearson Edexcel International AS & A Level
+January, May/June, October
+March; August; January
+Indicative pattern only. Add exact timetable dates and registration deadlines each series from the boards’ official timetables, with an “as of” date and a link to the source.
+9.2 Private Candidate Guide (/exams/private-candidates/)
+Meta title: How to Sit O & A Levels as a Private Candidate | GOALPAc
+H1: Sitting O and A Levels as a Private Candidate
+Choose your board and series (match what you are studying).
+Find an exam centre that accepts private candidates.
+Register before the centre’s deadline and pay entry fees directly to the centre.
+Plan coursework and practicals (choose subjects or components suitable for private candidates).
+How GOALPAc helps: choosing subjects and series, registration checklist and reminders, practical-skills sessions for sciences, full timed mock exams. GOALPAc is not an exam centre and does not register candidates.
+9.3 Past Papers & Mark Schemes Guide (/exams/past-papers/)
+Where to find official past papers (link to board websites; do not host board papers without permission); the three-stage method (topic questions, timed papers, full mock); marking with mark schemes; reading examiner reports; downloadable past-paper tracker.
+9.4 Mock Exams (/exams/mock-exams/)
+Open to GOALPAc students and external candidates; online invigilation; marking within 7 days; feedback report with predicted grade and top three improvement areas.
+9.5 Results & Student Achievements (/exams/results/)
+After the first exam series: headline outcomes with the method stated, student spotlights with consent, university destinations. Until then, show the Grade Plan and teacher credentials instead of numbers.
+10. Faculty, Students and Parents pages
+10.1 Our Faculty (/about/faculty/)
+Meta title: Meet Our O & A Level Teachers | GOALPAc Faculty
+H1: Meet Our Faculty
+Faculty card: photo, name and title, subjects and boards, qualifications, years of O/A Level teaching, short quote, profile link (Person schema). Filter by subject, board and level.
+10.2 Student Support & Mentoring (/support/students/)
+Personal mentor (monthly 1:1); weekly doubt-clearing clinics; study-skills workshops (time management, note-making, memory, exam stress); wellbeing support route; technical help desk by WhatsApp and email.
+10.3 Parents’ Hub (/support/parents/)
+Meta title: Parents’ Guide to Online O & A Level Learning | GOALPAc
+H1: For Parents: Stay Informed, Stay Involved
+Content: parent portal; monthly progress report (attendance, scores, working grade, target, next steps); termly parent-teacher meetings; keeping your child safe online; parent FAQs.
+10.4 University & Career Guidance (/support/university-guidance/)
+Choosing A Level subjects for an intended degree; applying to universities in the UK, USA, Canada, Australia, Malaysia and elsewhere; personal statement workshops; predicted grades guidance; scholarship research tips.
+10.5 Testimonials (/support/testimonials/)
+Video and written testimonials with name, country, subject and consent; link to independent review platforms once live.
+11. Resources, Blog, FAQs and Contact
+11.1 Blog (/blog/)

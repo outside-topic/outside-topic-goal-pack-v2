@@ -1,0 +1,93 @@
+﻿29: 1. Brand foundation
+74: 2. Site architecture: menu, submenus and URLs
+202: 3. Global SEO setup
+273: 4. Home page
+351: 5. About Us pages
+352: 5.1 Who We Are (/about/)
+368: 5.2 Mission, Vision & Values (/about/mission-vision-values/)
+373: 5.3 Why GOALPAc (/about/why-goalpac/)
+378: 5.4 The GOALPAc Grade Plan (/about/grade-plan/)
+387: 5.5 Academic Quality & Safeguarding (/about/quality-safeguarding/)
+394: 6. Programmes and Subjects pages
+396: 6.0 Programmes overview (/programmes/)
+436: 6.1 Cambridge O Level / IGCSE (/programmes/cambridge-o-level-igcse/)
+445: 6.2 Pearson Edexcel International GCSE (/programmes/edexcel-international-gcse/)
+451: 6.3 Cambridge International AS & A Level (/programmes/cambridge-as-a-level/)
+458: 6.4 Pearson Edexcel International AS & A Level (/programmes/edexcel-international-a-level/)
+463: 6.5 Crash Courses & Revision Bootcamps (/programmes/crash-courses/)
+467: 6.6 1:1 Private Tutoring (/programmes/private-tutoring/)
+471: 6.7 Foundation (/programmes/foundation/)
+474: 6.8 Subjects offered at launch
+484: 4MA1
+486: YMA01
+490: 4PM1
+493: YFM01
+497: 4PH1
+499: YPH11
+503: 4CH1
+505: YCH11
+509: 4BI1
+511: YBI11
+515: 4EC1
+517: YEC11
+521: 4BS1
+523: YBS11
+527: 4AC1
+529: YAC11
+533: 4CP0
+535: ICT / IT
+537: 4IT1
+539: YIT11
+543: 4EA1
+550: 6.9 Individual subject page template (/subjects/[board]-[level]-[subject]/)
+552: 7. How It Works
+553: 7.1 Our Online Classroom (/how-it-works/)
+565: 7.2 Class Schedules & Time Zones (/how-it-works/schedules-time-zones/)
+598: 7.3 Learning Platform & Recordings (/how-it-works/learning-platform/)
+602: 7.4 Assessments & Progress Reports (/how-it-works/assessments-progress/)
+629: 7.5 Free Trial Class (/how-it-works/free-trial/)
+635: 8. Admissions and Fees pages
+636: 8.1 How to Apply (/admissions/)
+646: 8.2 Placement Assessment (/admissions/placement-assessment/)
+648: 8.3 Fees & Study Plans (/admissions/fees/)
+679: 8.4 Scholarships (/admissions/scholarships/)
+681: 8.5 Academic Calendar & Intakes (/admissions/calendar/)
+697: 8.6 Apply Now (/admissions/apply/)
+699: 9. Exam Centre pages
+700: 9.1 Exam Series & Key Dates (/exams/exam-dates/)
+716: 9.2 Private Candidate Guide (/exams/private-candidates/)
+724: 9.3 Past Papers & Mark Schemes Guide (/exams/past-papers/)
+726: 9.4 Mock Exams (/exams/mock-exams/)
+728: 9.5 Results & Student Achievements (/exams/results/)
+730: 10. Faculty, Students and Parents pages
+731: 10.1 Our Faculty (/about/faculty/)
+735: 10.2 Student Support & Mentoring (/support/students/)
+737: 10.3 Parents’ Hub (/support/parents/)
+741: 10.4 University & Career Guidance (/support/university-guidance/)
+743: 10.5 Testimonials (/support/testimonials/)
+745: 11. Resources, Blog, FAQs and Contact
+746: 11.1 Blog (/blog/)
+814: 11.2 Other resource pages
+818: 11.3 FAQs (/faqs/)
+829: 11.4 Contact Us (/contact/)
+833: 11.5 Teach With Us (/careers/) and Partners (/partners/)
+835: 12. Legal pages, footer and launch checklist
+836: 12.1 Legal and policy pages
+862: 12.2 Footer copy
+867: 12.3 Global UX elements
+869: 12.4 Launch checklist
+881: 13. Website health plan
+883: 13.1 E-E-A-T signals
+899: 13.2 Content hubs (hub and spoke)
+915: 13.3 Freshness routine
+921: 13.4 Health KPIs (monthly)
+946: 13.5 Accessibility
+948: 14. Interactive tools
+988: 15. Full sample subject page: Cambridge O Level Mathematics (4024)
+1079: 16. Two pillar blog articles, ready to publish
+1080: 16.1 O Level vs IGCSE: What’s the Difference and Which Should You Take?
+1120: 16.2 How to Get an A* at A Level: A Teacher’s 10-Step Plan
+1151: 17. Free resource content
+1152: 17.1 Command Words Cheat Sheet (/resources/command-words/)
+1205: 17.2 8-Week Exam Revision Planner (/resources/8-week-revision-plan/)
+1243: 17.3 O & A Level Glossary (/resources/glossary/)

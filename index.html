@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online O Level & A Level Classes Worldwide | GOALPAc</title>
+  <meta name="description" content="Live online Cambridge & Edexcel O Level, IGCSE and A Level classes for students worldwide. Small groups, expert teachers. Book your free trial today.">
+  <meta name="keywords" content="online O and A level classes, online O level tuition, online A level tuition, Cambridge O level online classes, Edexcel IGCSE online classes">
+  <link rel="canonical" href="https://www.goalpac.com/">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.goalpac.com/">
+  <meta property="og:title" content="GOALPAc: Global O and A Level Preparation Academy">
+  <meta property="og:description" content="Expert-led live online classes for Cambridge and Pearson Edexcel O & A Levels, from anywhere in the world.">
+  <meta property="og:image" content="assets/images/goalpac-logo.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/goalpac-logo-white-bg.jpg">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://www.goalpac.com/#organization",
+        "name": "Global O and A Level Preparation Academy (GOALPAc)",
+        "alternateName": "GOALPAc",
+        "url": "https://www.goalpac.com/",
+        "logo": "https://www.goalpac.com/assets/images/goalpac-logo.jpg",
+        "description": "Online academy offering live Cambridge and Pearson Edexcel O Level, IGCSE and A Level preparation classes for students worldwide.",
+        "areaServed": "Worldwide",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "admissions",
+          "email": "admissions@goalpac.com",
+          "availableLanguage": ["English"]
+        },
+        "sameAs": [
+          "https://www.facebook.com/goalpac",
+          "https://www.instagram.com/goalpac",
+          "https://www.youtube.com/@goalpac",
+          "https://www.linkedin.com/company/goalpac"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.goalpac.com/#website",
+        "url": "https://www.goalpac.com/",
+        "name": "GOALPAc",
+        "publisher": { "@id": "https://www.goalpac.com/#organization" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.goalpac.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are GOALPAc classes live?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Every core class is taught live online and recorded, so students can rewatch any lesson in their portal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which exam boards do you teach?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cambridge O Level, IGCSE and International AS & A Level, and Pearson Edexcel International GCSE and International AS & A Level."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can my child join from any country?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We teach students worldwide and schedule batches across major time zones."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How large are the classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Group classes have twelve students at most. One-to-one tutoring is also available."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you register students for exams?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We are a tuition provider, not an exam centre. Our private candidate guide and advisers walk families through registration with a recognised centre."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER UTILITY BAR
+       ========================================================================== -->
+  <aside class="header-utility-bar d-none d-lg-block" aria-label="Academic Utility Bar">
+    <div class="container-xl">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-4">
+          <span><i class="fa-regular fa-envelope text-gold me-2"></i><a href="mailto:admissions@goalpac.com">admissions@goalpac.com</a></span>
+          <span><i class="fa-brands fa-whatsapp text-gold me-2"></i><a href="https://wa.me/message/GOALPAC" target="_blank" rel="noopener">WhatsApp Admissions Desk</a></span>
+          <span class="utility-clock-pill">
+            <span class="pulse-dot"></span>
+            <span id="utility-active-clock">Checking live time...</span>
+          </span>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <div class="d-flex align-items-center gap-1">
+            <i class="fa-solid fa-globe text-gold"></i>
+            <span class="me-1">Zone:</span>
+            <select id="global-timezone-select" class="form-select form-select-sm py-0 ps-1 pe-4 border-0 bg-transparent text-white" style="font-size:0.75rem; width:auto; cursor:pointer;" aria-label="Select local time zone">
+              <option value="Asia/Dhaka" class="text-dark" selected>Dhaka (BST)</option>
+              <option value="Asia/Dubai" class="text-dark">Dubai (GST)</option>
+              <option value="Africa/Lagos" class="text-dark">Lagos (WAT)</option>
+              <option value="Europe/London" class="text-dark">London (GMT/BST)</option>
+              <option value="Asia/Kuala_Lumpur" class="text-dark">Kuala Lumpur (MYT)</option>
+              <option value="America/Toronto" class="text-dark">Toronto (EDT)</option>
+            </select>
+          </div>
+          <span class="text-muted">|</span>
+          <a href="#portal" class="fw-semibold text-white"><i class="fa-solid fa-user-lock text-gold me-1"></i>Student Portal</a>
+          <span class="text-muted">|</span>
+          <a href="#portal" class="fw-semibold text-white">Parent Portal</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       PRIMARY INSTITUTIONAL NAVIGATION & MEGA-MENU
+       ========================================================================== -->
+  <header class="goalpac-navbar">
+    <div class="container-xl">
+      <div class="d-flex align-items-center justify-content-between">
+        
+        <!-- Official Crest Logo -->
+        <a href="index.html" class="goalpac-logo-container" aria-label="GOALPAc Home">
+          <img src="assets/images/goalpac-logo-white-bg.jpg" alt="GOALPAc - Global O and A Level Preparation Academy" class="goalpac-logo-img">
+        </a>
+
+        <!-- Desktop Navigation with Mega-Menus -->
+        <nav class="d-none d-xl-block" aria-label="Primary Navigation">
+          <ul class="navbar-nav-institutional">
+            
+            <!-- Home -->
+            <li class="nav-item-inst">
+              <a href="index.html" class="nav-link-inst text-gold">Home</a>
+            </li>
+
+            <!-- About Us (Mega Menu) -->
+            <!-- About Us (Mega Menu) -->
+            <li class="nav-item-inst">
+              <a href="about.html" class="nav-link-inst" aria-haspopup="true">About Us <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="mega-menu-panel" role="region" aria-label="About Us Submenu">
+                <div class="container-xl">
+                  <div class="row g-4">
+                    <div class="col-3">
+                      <div class="mega-menu-title">About GOALPAc</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="about.html" class="mega-menu-link">Our Story</a></li>
+                        <li><a href="about.html#mission" class="mega-menu-link">Our Mission & Values</a></li>
+                        <li><a href="why-goalpac.html" class="mega-menu-link">Why GOALPAc</a></li>
+                        <li><a href="grade-plan.html" class="mega-menu-link">The GOALPAc Grade Plan</a></li>
+                        <li><a href="safeguarding.html" class="mega-menu-link">Academic Quality & Safeguarding</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <div class="mega-menu-title">Our Approach</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="how-it-works.html" class="mega-menu-link">Academic Approach</a></li>
+                        <li><a href="why-goalpac.html" class="mega-menu-link">Teaching Philosophy</a></li>
+                        <li><a href="support/parents.html" class="mega-menu-link">1:1 Mentorship Model</a></li>
+                        <li><a href="support/parents.html" class="mega-menu-link">Parent Communication</a></li>
+                        <li><a href="support/parents.html" class="mega-menu-link">Progress & Support</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <div class="mega-menu-title">Global Academy & Independence</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="how-it-works/schedules-time-zones.html" class="mega-menu-link">Global Reach (6 Time Zones)</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">Online Learning Model</a></li>
+                        <li><a href="safeguarding.html" class="mega-menu-link">Academic Quality & Safeguarding</a></li>
+                        <li><a href="independence-statement.html" class="mega-menu-link text-gold">Independence Statement</a></li>
+                        <li><a href="independence-statement.html" class="mega-menu-link">Exam Board Disclaimer</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <div class="mega-feature-card">
+                        <span class="badge-code-gold mb-2 d-inline-block">Institutional Tenet</span>
+                        <h6 class="font-serif fw-bold text-navy mb-2">Effort > Postcode</h6>
+                        <p class="text-muted small mb-3">A student’s grades should depend on their effort, not their postcode. Discover how our global online classroom solves this.</p>
+                        <a href="about.html" class="btn-editorial-link small">Read Our Story <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Programmes & Subjects (Mega Menu) -->
+            <li class="nav-item-inst">
+              <a href="programmes.html" class="nav-link-inst" aria-haspopup="true">Programmes & Subjects <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="mega-menu-panel" role="region" aria-label="Programmes and Subjects Submenu">
+                <div class="container-xl">
+                  <div class="row g-4">
+                    <div class="col-3">
+                      <div class="mega-menu-title">Programmes</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="programmes/cambridge-o-level-igcse.html" class="mega-menu-link">Cambridge O Level / IGCSE <span class="badge-code">CIE</span></a></li>
+                        <li><a href="programmes/edexcel-international-gcse.html" class="mega-menu-link">Pearson Edexcel Int. GCSE <span class="badge-code">Edexcel</span></a></li>
+                        <li><a href="programmes/cambridge-as-a-level.html" class="mega-menu-link">Cambridge AS & A Level <span class="badge-code">CIE</span></a></li>
+                        <li><a href="programmes/edexcel-international-a-level.html" class="mega-menu-link">Edexcel International A Level <span class="badge-code">IAL</span></a></li>
+                        <li><a href="programmes.html" class="mega-menu-link">Crash Courses & Bootcamps</a></li>
+                        <li><a href="programmes.html" class="mega-menu-link">1:1 Private Tutoring</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <div class="mega-menu-title">Student Pathways</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="exams/private-candidates.html" class="mega-menu-link">Private Candidates</a></li>
+                        <li><a href="programmes.html" class="mega-menu-link">Retakers & Resits</a></li>
+                        <li><a href="exams/private-candidates.html" class="mega-menu-link">Home-Schooled Learners</a></li>
+                        <li><a href="programmes.html" class="mega-menu-link">Foundation (Grades 7–8)</a></li>
+                        <li><a href="subjects/index.html" class="mega-menu-link fw-bold text-navy">All Subjects Directory (A–Z)</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <div class="mega-menu-title">Key Subject Disciplines</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="subjects/cambridge-o-level-mathematics.html" class="mega-menu-link">Mathematics & Add Maths</a></li>
+                        <li><a href="subjects/index.html" class="mega-menu-link">Physics, Chemistry, Biology</a></li>
+                        <li><a href="subjects/index.html" class="mega-menu-link">Economics & Accounting</a></li>
+                        <li><a href="subjects/index.html" class="mega-menu-link">Computer Science & ICT</a></li>
+                        <li><a href="subjects/index.html" class="mega-menu-link">English Language</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                      <div class="mega-feature-card">
+                        <span class="badge-code-gold mb-2 d-inline-block">Featured Subject</span>
+                        <h6 class="font-serif fw-bold text-navy mb-1">Cambridge O Level Maths</h6>
+                        <div class="font-mono text-gold small mb-2">Subject Code: 4024</div>
+                        <p class="text-muted small mb-3">Line-by-line coverage, non-calculator sprint training, and Paper 1 & 2 exam technique.</p>
+                        <a href="subjects/cambridge-o-level-mathematics.html" class="btn-editorial-link small">View 4024 Syllabus Page <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- How It Works (Mega Menu) -->
+            <li class="nav-item-inst">
+              <a href="how-it-works.html" class="nav-link-inst" aria-haspopup="true">How It Works <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="mega-menu-panel" role="region" aria-label="How It Works Submenu">
+                <div class="container-xl">
+                  <div class="row g-4">
+                    <div class="col-4">
+                      <div class="mega-menu-title">The 8-Stage Learning Journey</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="how-it-works.html" class="mega-menu-link">1. Choose Your Programme</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">2. Meet Your Teacher</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">3. Join Live Classes (Max 12)</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">4. Access Recorded Lessons 24/7</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">5. Work With Your Mentor</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">6. Track Your Progress Monthly</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">7. Prepare with Timed Mocks</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">8. Exam Day Confidence</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-menu-title">Our Learning Model</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="how-it-works.html" class="mega-menu-link">Live Small Classes (Max 12)</a></li>
+                        <li><a href="how-it-works/schedules-time-zones.html" class="mega-menu-link">Schedules & 6 Time Zones</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">Student Portal & Recordings</a></li>
+                        <li><a href="how-it-works.html" class="mega-menu-link">Assessments & Progress Reports</a></li>
+                        <li><a href="#trial-section" class="mega-menu-link text-gold fw-bold">Book a Free Trial Class</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-feature-card">
+                        <span class="badge-code-gold mb-2 d-inline-block">The Classroom Standard</span>
+                        <h6 class="font-serif fw-bold text-navy mb-2">Live, Never Pre-Recorded</h6>
+                        <p class="text-muted small mb-3">Ask questions live, solve past paper steps on digital whiteboards, and receive real-time teacher corrections.</p>
+                        <a href="how-it-works.html" class="btn-editorial-link small">Explore Classroom Experience <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Admissions & Fees (Mega Menu) -->
+            <li class="nav-item-inst">
+              <a href="admissions.html" class="nav-link-inst" aria-haspopup="true">Admissions & Fees <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="mega-menu-panel" role="region" aria-label="Admissions Submenu">
+                <div class="container-xl">
+                  <div class="row g-4">
+                    <div class="col-4">
+                      <div class="mega-menu-title">Admissions Pathway</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="admissions.html" class="mega-menu-link">How to Apply (4 Simple Steps)</a></li>
+                        <li><a href="admissions.html" class="mega-menu-link">Diagnostic Placement Assessment</a></li>
+                        <li><a href="admissions.html" class="mega-menu-link">Academic Calendar & Intakes</a></li>
+                        <li><a href="#trial-section" class="mega-menu-link text-gold fw-bold">Online Application Form</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-menu-title">Transparent Fees</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="admissions/fees.html" class="mega-menu-link">Programme Fees (Monthly & Termly)</a></li>
+                        <li><a href="admissions/fees.html" class="mega-menu-link">Annual Study Plans & Savings</a></li>
+                        <li><a href="admissions/fees.html" class="mega-menu-link">Scholarships & Sibling Concessions</a></li>
+                        <li><a href="admissions/fees.html" class="mega-menu-link">Payment Methods & Currencies</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-feature-card">
+                        <span class="badge-code-gold mb-2 d-inline-block">Zero Surprise Costs</span>
+                        <h6 class="font-serif fw-bold text-navy mb-2">Transparent Tuition</h6>
+                        <p class="text-muted small mb-3">Live lessons, full recordings, weekly quizzes, timed papers, and mentor check-ins are included in every subject fee.</p>
+                        <a href="admissions/fees.html" class="btn-editorial-link small">View Fee Structure <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Exam Centre (Mega Menu) -->
+            <li class="nav-item-inst">
+              <a href="exams.html" class="nav-link-inst" aria-haspopup="true">Exam Centre <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="mega-menu-panel" role="region" aria-label="Exam Centre Submenu">
+                <div class="container-xl">
+                  <div class="row g-4">
+                    <div class="col-4">
+                      <div class="mega-menu-title">Exam Guidance</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="exams.html" class="mega-menu-link">Exam Series & Key Timetable Dates</a></li>
+                        <li><a href="exams.html" class="mega-menu-link">Past Papers & Mark Schemes Guide</a></li>
+                        <li><a href="exams.html" class="mega-menu-link">Board-Standard Mock Exams</a></li>
+                        <li><a href="exams.html" class="mega-menu-link">Results & Academic Progressions</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-menu-title">Candidate Support</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="exams/private-candidates.html" class="mega-menu-link fw-bold text-navy">Private Candidate Complete Guide</a></li>
+                        <li><a href="exams/private-candidates.html" class="mega-menu-link">Finding an Approved Exam Centre</a></li>
+                        <li><a href="programmes.html" class="mega-menu-link">Retakers Strategy & Resits</a></li>
+                        <li><a href="exams/private-candidates.html" class="mega-menu-link">Sciences Alternative to Practical</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-feature-card">
+                        <span class="badge-code-gold mb-2 d-inline-block">Important Notice</span>
+                        <h6 class="font-serif fw-bold text-navy mb-2">Independent Provider</h6>
+                        <p class="text-muted small mb-3">GOALPAc is a tuition provider, not an exam board. We prepare you thoroughly, and guide you through registering with an official centre.</p>
+                        <a href="exams/private-candidates.html" class="btn-editorial-link small">Read Private Candidate Guide <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+                </div>
+              </div>
+            </li>
+
+            <!-- Faculty -->
+            <li class="nav-item-inst">
+              <a href="faculty.html" class="nav-link-inst">Faculty</a>
+            </li>
+
+            <!-- Students & Parents -->
+            <li class="nav-item-inst">
+              <a href="support/parents.html" class="nav-link-inst" aria-haspopup="true">Students & Parents <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="mega-menu-panel" role="region" aria-label="Support Submenu">
+                <div class="container-xl">
+                  <div class="row g-4">
+                    <div class="col-4">
+                      <div class="mega-menu-title">Students' Hub</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="support/students.html" class="mega-menu-link">The Student Experience</a></li>
+                        <li><a href="support/mentoring.html" class="mega-menu-link">1:1 Mentoring & Wellbeing</a></li>
+                        <li><a href="support/clinics.html" class="mega-menu-link">Weekly Doubt-Clearing Clinics</a></li>
+                        <li><a href="support/university-guidance.html" class="mega-menu-link">University & Career Guidance</a></li>
+                        <li><a href="support/testimonials.html" class="mega-menu-link">Student Testimonials</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-menu-title">Parents' Hub</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="support/parents.html" class="mega-menu-link fw-bold text-navy">Parent Overview: Understanding Progress</a></li>
+                        <li><a href="support/parents.html#reports" class="mega-menu-link">Monthly Written Progress Reports</a></li>
+                        <li><a href="support/parents.html#ptm" class="mega-menu-link">Online Parent-Teacher Meetings</a></li>
+                        <li><a href="about/quality-safeguarding.html" class="mega-menu-link">Safeguarding & Online Safety</a></li>
+                        <li><a href="support/parents.html#faqs" class="mega-menu-link">Parent FAQs</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-feature-card">
+                        <span class="badge-code-gold mb-2 d-inline-block">The Parent Question</span>
+                        <h6 class="font-serif fw-bold text-navy mb-2">How Will I Know My Child Is Progressing?</h6>
+                        <p class="text-muted small mb-3">Every month, receive a written report showing attendance, quiz averages, timed paper scores, syllabus covered, and next steps.</p>
+                        <a href="support/parents.html" class="btn-editorial-link small">Explore Parent Hub <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Resources & Blog -->
+            <li class="nav-item-inst">
+              <a href="resources.html" class="nav-link-inst" aria-haspopup="true">Resources & Blog <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="mega-menu-panel" role="region" aria-label="Resources Submenu">
+                <div class="container-xl">
+                  <div class="row g-4">
+                    <div class="col-4">
+                      <div class="mega-menu-title">Free Interactive Tools</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="tools/exam-countdown.html" class="mega-menu-link">Live Exam Countdown Clock</a></li>
+                        <li><a href="tools/revision-timetable.html" class="mega-menu-link">Revision Timetable Generator</a></li>
+                        <li><a href="tools/grade-calculator.html" class="mega-menu-link">Grade Target Calculator</a></li>
+                        <li><a href="tools/subject-finder.html" class="mega-menu-link">Subject Combination Finder</a></li>
+                        <li><a href="tools/board-checker.html" class="mega-menu-link">Which Board Am I On? Checker</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-menu-title">Academic Study Materials</div>
+                      <ul class="mega-menu-list">
+                        <li><a href="resources/command-words.html" class="mega-menu-link">Command Words Cheat Sheet</a></li>
+                        <li><a href="resources/8-week-revision-plan.html" class="mega-menu-link">8-Week Exam Revision Planner</a></li>
+                        <li><a href="resources/glossary.html" class="mega-menu-link">O & A Level Plain-English Glossary</a></li>
+                        <li><a href="resources/grade-boundaries.html" class="mega-menu-link">Grade Boundaries Explained</a></li>
+                        <li><a href="blog/index.html" class="mega-menu-link fw-bold text-navy">The GOALPAc Academic Blog</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <div class="mega-feature-card">
+                        <span class="badge-code-gold mb-2 d-inline-block">Pillar Article</span>
+                        <h6 class="font-serif fw-bold text-navy mb-2">O Level vs IGCSE: What’s the Difference?</h6>
+                        <p class="text-muted small mb-3">Compare syllabuses, grading, tiers, and international university recognition before you make your choice.</p>
+                        <a href="blog/o-level-vs-igcse.html" class="btn-editorial-link small">Read Guide <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Contact -->
+            <li class="nav-item-inst">
+              <a href="contact.html" class="nav-link-inst">Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="d-flex align-items-center gap-2">
+          <a href="#trial-section" class="btn-goalpac-gold d-none d-sm-inline-flex">
+            <i class="fa-solid fa-calendar-check"></i> Book a Free Trial
+          </a>
+          <a href="admissions/apply.html" class="btn-goalpac-outline-navy d-none d-md-inline-flex">
+            Apply Now
+          </a>
+          <button id="mobile-hamburger-trigger" class="btn btn-outline-secondary d-xl-none p-2 border-0" aria-label="Open Mobile Menu">
+            <i class="fa-solid fa-bars fa-lg text-navy"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MOBILE NAVIGATION DRAWER
+       ========================================================================== -->
+  <div id="mobile-nav-backdrop" class="mobile-nav-backdrop"></div>
+  <aside id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+    <div class="p-3 border-bottom d-flex justify-content-between align-items-center">
+      <img src="assets/images/goalpac-logo-white-bg.jpg" alt="GOALPAc" style="height:44px; width:auto;">
+      <button id="mobile-drawer-close" class="btn btn-sm btn-light border-0" aria-label="Close Mobile Menu">
+        <i class="fa-solid fa-xmark fa-lg"></i>
+      </button>
+    </div>
+
+    <div class="p-3 border-bottom bg-light d-flex gap-2">
+      <a href="#trial-section" class="btn btn-goalpac-gold flex-grow-1 text-center py-2" style="font-size:0.85rem;">Book Free Trial</a>
+      <a href="admissions/apply.html" class="btn btn-goalpac-outline-navy flex-grow-1 text-center py-2" style="font-size:0.85rem;">Apply Now</a>
+    </div>
+
+    <div class="p-3 flex-grow-1 overflow-auto">
+      <ul class="list-unstyled mb-0">
+        <li class="border-bottom py-2"><a href="index.html" class="text-navy fw-bold text-decoration-none">Home</a></li>
+        
+        <li class="border-bottom py-2 mobile-accordion-item">
+          <div class="d-flex justify-content-between align-items-center mobile-accordion-toggle" aria-expanded="false" style="cursor:pointer;">
+            <span class="text-navy fw-semibold">About Us</span>
+            <i class="fa-solid fa-chevron-down text-muted small"></i>
+          </div>
+          <div class="mobile-accordion-content ps-3 pt-2" style="display:none;">
+            <ul class="list-unstyled small">
+              <li class="py-1"><a href="about.html" class="text-muted text-decoration-none">Our Story</a></li>
+              <li class="py-1"><a href="about-mission.html" class="text-muted text-decoration-none">Mission & Values</a></li>
+              <li class="py-1"><a href="why-goalpac.html" class="text-muted text-decoration-none">Why GOALPAc</a></li>
+              <li class="py-1"><a href="grade-plan.html" class="text-muted text-decoration-none">The GOALPAc Grade Plan</a></li>
+              <li class="py-1"><a href="quality-safeguarding.html" class="text-muted text-decoration-none">Safeguarding</a></li>
+              <li class="py-1"><a href="independence-statement.html" class="text-gold text-decoration-none">Independence Statement</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-bottom py-2 mobile-accordion-item">
+          <div class="d-flex justify-content-between align-items-center mobile-accordion-toggle" aria-expanded="false" style="cursor:pointer;">
+            <span class="text-navy fw-semibold">Programmes & Subjects</span>
+            <i class="fa-solid fa-chevron-down text-muted small"></i>
+          </div>
+          <div class="mobile-accordion-content ps-3 pt-2" style="display:none;">
+            <ul class="list-unstyled small">
+              <li class="py-1"><a href="programmes/cambridge-o-level-igcse.html" class="text-muted text-decoration-none">Cambridge O Level / IGCSE</a></li>
+              <li class="py-1"><a href="programmes/edexcel-international-gcse.html" class="text-muted text-decoration-none">Pearson Edexcel Int. GCSE</a></li>
+              <li class="py-1"><a href="programmes/cambridge-as-a-level.html" class="text-muted text-decoration-none">Cambridge AS & A Level</a></li>
+              <li class="py-1"><a href="programmes/edexcel-international-a-level.html" class="text-muted text-decoration-none">Edexcel International A Level</a></li>
+              <li class="py-1"><a href="programmes/crash-courses.html" class="text-muted text-decoration-none">Crash Courses</a></li>
+              <li class="py-1"><a href="programmes/private-tutoring.html" class="text-muted text-decoration-none">1:1 Private Tutoring</a></li>
+              <li class="py-1"><a href="subjects/cambridge-o-level-mathematics.html" class="text-gold fw-bold text-decoration-none">Cambridge O Level Maths (4024)</a></li>
+              <li class="py-1"><a href="subjects/index.html" class="text-navy fw-bold text-decoration-none">All Subjects A-Z</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-bottom py-2 mobile-accordion-item">
+          <div class="d-flex justify-content-between align-items-center mobile-accordion-toggle" aria-expanded="false" style="cursor:pointer;">
+            <span class="text-navy fw-semibold">How It Works</span>
+            <i class="fa-solid fa-chevron-down text-muted small"></i>
+          </div>
+          <div class="mobile-accordion-content ps-3 pt-2" style="display:none;">
+            <ul class="list-unstyled small">
+              <li class="py-1"><a href="how-it-works.html" class="text-muted text-decoration-none">Our Online Classroom</a></li>
+              <li class="py-1"><a href="how-it-works/schedules-time-zones.html" class="text-muted text-decoration-none">Class Schedules & Time Zones</a></li>
+              <li class="py-1"><a href="how-it-works/learning-platform.html" class="text-muted text-decoration-none">Student Portal & Recordings</a></li>
+              <li class="py-1"><a href="how-it-works/assessments-progress.html" class="text-muted text-decoration-none">Assessments & Reports</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-bottom py-2 mobile-accordion-item">
+          <div class="d-flex justify-content-between align-items-center mobile-accordion-toggle" aria-expanded="false" style="cursor:pointer;">
+            <span class="text-navy fw-semibold">Admissions & Fees</span>
+            <i class="fa-solid fa-chevron-down text-muted small"></i>
+          </div>
+          <div class="mobile-accordion-content ps-3 pt-2" style="display:none;">
+            <ul class="list-unstyled small">
+              <li class="py-1"><a href="admissions.html" class="text-muted text-decoration-none">How to Apply</a></li>
+              <li class="py-1"><a href="admissions/placement-assessment.html" class="text-muted text-decoration-none">Placement Assessment</a></li>
+              <li class="py-1"><a href="admissions/fees.html" class="text-muted text-decoration-none">Fees & Study Plans</a></li>
+              <li class="py-1"><a href="admissions/scholarships.html" class="text-muted text-decoration-none">Scholarships & Discounts</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-bottom py-2 mobile-accordion-item">
+          <div class="d-flex justify-content-between align-items-center mobile-accordion-toggle" aria-expanded="false" style="cursor:pointer;">
+            <span class="text-navy fw-semibold">Exam Centre</span>
+            <i class="fa-solid fa-chevron-down text-muted small"></i>
+          </div>
+          <div class="mobile-accordion-content ps-3 pt-2" style="display:none;">
+            <ul class="list-unstyled small">
+              <li class="py-1"><a href="exams/exam-dates.html" class="text-muted text-decoration-none">Exam Series & Dates</a></li>
+              <li class="py-1"><a href="exams/private-candidates.html" class="text-muted text-decoration-none">Private Candidate Guide</a></li>
+              <li class="py-1"><a href="exams/past-papers.html" class="text-muted text-decoration-none">Past Papers Guide</a></li>
+              <li class="py-1"><a href="exams/mock-exams.html" class="text-muted text-decoration-none">Mock Exams</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-bottom py-2"><a href="faculty.html" class="text-navy fw-semibold text-decoration-none">Faculty</a></li>
+        <li class="border-bottom py-2"><a href="support/parents.html" class="text-navy fw-semibold text-decoration-none">Parents' Hub</a></li>
+        <li class="border-bottom py-2"><a href="resources.html" class="text-navy fw-semibold text-decoration-none">Resources & Free Tools</a></li>
+        <li class="border-bottom py-2"><a href="blog/index.html" class="text-navy fw-semibold text-decoration-none">Blog</a></li>
+        <li class="border-bottom py-2"><a href="contact.html" class="text-navy fw-semibold text-decoration-none">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="p-3 border-top bg-light">
+      <div class="small text-muted mb-2">Student & Parent Access</div>
+      <div class="d-flex gap-2">
+        <a href="#portal" class="btn btn-sm btn-outline-secondary flex-grow-1"><i class="fa-solid fa-lock me-1"></i>Portal Login</a>
+        <a href="https://wa.me/message/GOALPAC" target="_blank" class="btn btn-sm btn-success flex-grow-1"><i class="fa-brands fa-whatsapp me-1"></i>WhatsApp</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       HERO SECTION — EDITORIAL MASTHEAD & WORLD TIMEZONE BOARD
+       ========================================================================== -->
+  <main>
+    <section class="hero-editorial-section" aria-labelledby="hero-title">
+      <div class="container-xl">
+        <div class="row align-items-center g-5">
+          
+          <!-- Left Column: Editorial Statement & Actions -->
+          <div class="col-lg-7">
+            
+            <div class="section-eyebrow">GLOBAL O AND A LEVEL PREPARATION ACADEMY</div>
+            
+            <h1 id="hero-title" class="mb-3">
+              Top grades, taught live, wherever in the world you study.
+            </h1>
+
+            <p class="lead mb-4">
+              Small-group O Level, IGCSE and AS & A Level classes led by board-experienced subject specialists, scheduled for your time zone and recorded for every revision night.
+            </p>
+
+            <!-- The Core Brand Belief Box (Section 02 Brief) -->
+            <div class="hero-core-belief-strip">
+              <div class="text-gold fw-bold text-uppercase small font-mono mb-1">A global academy built on one belief</div>
+              <p class="hero-core-belief-text">
+                “A student’s grades should depend on their effort, not their postcode. Too many capable O and A Level students cannot find experienced subject teachers nearby, or cannot fit tuition around school, travel and family life. GOALPAc was built to solve that.”
+              </p>
+            </div>
+
+            <!-- Hero Action Buttons -->
+            <div class="d-flex flex-wrap gap-3 align-items-center">
+              <a href="#trial-section" class="btn-goalpac-gold">
+                <i class="fa-solid fa-calendar-check"></i> Book a free trial class
+              </a>
+              <a href="#programmes-section" class="btn-goalpac-outline-navy">
+                Explore programmes <i class="fa-solid fa-arrow-down small"></i>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Live Global Classroom Board (The Hero Visual Artifact) -->
+          <div class="col-lg-5">
+            <div class="live-world-board-card">
+              
+              <div class="live-world-board-header">
+                <div>
+                  <h3>One classroom, six time zones</h3>
+                  <small class="text-muted" style="color:#A0B2C6 !important;">Live academy batches running globally</small>
+                </div>
+                <span class="board-status-live">
+                  <span class="pulse-dot"></span> LIVE SESSIONS
+                </span>
+              </div>
+
+              <div class="board-grid-timezones">
+                
+                <!-- Dhaka -->
+                <div class="timezone-slot-cell">
+                  <div class="timezone-slot-city">
+                    <span>Dhaka</span>
+                    <span id="clock-dhaka" class="timezone-slot-clock">--:--:--</span>
+                  </div>
+                  <div class="timezone-slot-batch">
+                    <span class="badge-code-gold py-0 px-1" style="font-size:0.65rem;">CIE 9702</span>
+                    <span>A Level Physics</span>
+                  </div>
+                </div>
+
+                <!-- Dubai -->
+                <div class="timezone-slot-cell">
+                  <div class="timezone-slot-city">
+                    <span>Dubai</span>
+                    <span id="clock-dubai" class="timezone-slot-clock">--:--:--</span>
+                  </div>
+                  <div class="timezone-slot-batch">
+                    <span class="badge-code-gold py-0 px-1" style="font-size:0.65rem;">CIE 4024</span>
+                    <span>O Level Mathematics</span>
+                  </div>
+                </div>
+
+                <!-- Lagos -->
+                <div class="timezone-slot-cell">
+                  <div class="timezone-slot-city">
+                    <span>Lagos</span>
+                    <span id="clock-lagos" class="timezone-slot-clock">--:--:--</span>
+                  </div>
+                  <div class="timezone-slot-batch">
+                    <span class="badge-code-gold py-0 px-1" style="font-size:0.65rem;">Edexcel 4CH1</span>
+                    <span>Int. GCSE Chemistry</span>
+                  </div>
+                </div>
+
+                <!-- London -->
+                <div class="timezone-slot-cell">
+                  <div class="timezone-slot-city">
+                    <span>London</span>
+                    <span id="clock-london" class="timezone-slot-clock">--:--:--</span>
+                  </div>
+                  <div class="timezone-slot-batch">
+                    <span class="badge-code-gold py-0 px-1" style="font-size:0.65rem;">CIE 9708</span>
+                    <span>AS Economics</span>
+                  </div>
+                </div>
+
+                <!-- Kuala Lumpur -->
+                <div class="timezone-slot-cell">
+                  <div class="timezone-slot-city">
+                    <span>Kuala Lumpur</span>
+                    <span id="clock-kl" class="timezone-slot-clock">--:--:--</span>
+                  </div>
+                  <div class="timezone-slot-batch">
+                    <span class="badge-code-gold py-0 px-1" style="font-size:0.65rem;">Edexcel YMA01</span>
+                    <span>IAL Pure Mathematics</span>
+                  </div>
+                </div>
+
+                <!-- Toronto -->
+                <div class="timezone-slot-cell">
+                  <div class="timezone-slot-city">
+                    <span>Toronto</span>
+                    <span id="clock-toronto" class="timezone-slot-clock">--:--:--</span>
+                  </div>
+                  <div class="timezone-slot-batch">
+                    <span class="badge-code-gold py-0 px-1" style="font-size:0.65rem;">CIE 0610</span>
+                    <span>IGCSE Biology</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="live-world-board-footer d-flex justify-content-between align-items-center">
+                <span>Indicative batch times. Your exact timetable is confirmed after placement.</span>
+                <a href="how-it-works/schedules-time-zones.html" class="text-gold text-decoration-none small">All Timings <i class="fa-solid fa-angle-right"></i></a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROOF ROW (Directly Below Hero)
+         ========================================================================== -->
+    <div class="hero-proof-row">
+      <div class="container-xl">
+        <div class="row g-4 align-items-center">
+          
+          <div class="col-md-4">
+            <div class="proof-pillar">
+              <div class="proof-pillar-num">12</div>
+              <p class="proof-pillar-text">Students at most in every live class, ensuring personal teacher attention.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="proof-pillar border-start-md">
+              <div class="proof-pillar-num">2</div>
+              <p class="proof-pillar-text">Exam boards under one roof: Cambridge & Pearson Edexcel specialist streams.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="proof-pillar border-start-md">
+              <div class="proof-pillar-num">24/7</div>
+              <p class="proof-pillar-text">Access to every lesson recording, revision note and mark scheme in your portal.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         THE GOALPAc PROMISE (Section 06 Institutional Tenet)
+         ========================================================================== -->
+    <section class="institutional-promise-band text-center" aria-label="Institutional Promise">
+      <div class="container-xl">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="promise-quote-mark">“</div>
+            <p class="promise-statement-text">
+              We will teach every topic in your syllabus, show you how it is examined, tell you honestly where you stand and work with you until exam day.
+            </p>
+            <div class="promise-attribution">
+              — The GOALPAc Institutional Promise
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WHO WE HELP (One Academy. Two Boards. Every Ambition.)
+         ========================================================================== -->
+    <section class="py-5 bg-surface border-bottom" aria-labelledby="who-we-help-title">
+      <div class="container-xl">
+        
+        <div class="row mb-5">
+          <div class="col-lg-8">
+            <div class="section-eyebrow">WHO WE TEACH</div>
+            <h2 id="who-we-help-title" class="mb-3">One Academy. Two Boards. Every Ambition.</h2>
+            <p class="lead">
+              Starting O Level, chasing an A* at A Level, retaking a paper or sitting as a private candidate: each programme follows its board’s syllabus line by line, and each student follows a personal plan.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          
+          <div class="col-md-6 col-lg-3">
+            <div class="p-4 h-100 border rounded-1 bg-parchment">
+              <div class="badge-code mb-3">YEARS 9–11</div>
+              <h4 class="mb-2">O Level & IGCSE Students</h4>
+              <p class="text-muted small mb-0">Build strong foundations, conquer non-calculator numeracy and master exam technique from Year 9 to Year 11.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="p-4 h-100 border rounded-1 bg-parchment">
+              <div class="badge-code mb-3">YEARS 12–13</div>
+              <h4 class="mb-2">AS & A Level Students</h4>
+              <p class="text-muted small mb-0">Go deeper, think like an examiner, master extended writing and secure the grades your target university demands.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="p-4 h-100 border rounded-1 bg-parchment">
+              <div class="badge-code mb-3">INDEPENDENT</div>
+              <h4 class="mb-2">Private Candidates & Retakers</h4>
+              <p class="text-muted small mb-0">Structured teaching, full syllabus mapping and exam centre guidance, even without a school enrollment.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="p-4 h-100 border rounded-1 bg-parchment">
+              <div class="badge-code mb-3">INSTITUTIONAL</div>
+              <h4 class="mb-2">Schools & Partners</h4>
+              <p class="text-muted small mb-0">Specialist subject top-up classes and emergency teacher coverage delivered by our qualified faculty.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROGRAMMES DIRECTORY
+         ========================================================================== -->
+    <section id="programmes-section" class="programmes-section" aria-labelledby="programmes-title">
+      <div class="container-xl">
+        
+        <div class="d-flex flex-wrap justify-content-between align-items-end mb-5">
+          <div>
+            <div class="section-eyebrow">ACADEMIC PROGRAMMES</div>
+            <h2 id="programmes-title" class="mb-2">Choose Your Programme</h2>
+            <p class="text-muted mb-0">Every programme is taught live, mapped line-by-line to the board's published syllabus.</p>
+          </div>
+          <a href="programmes.html" class="btn-editorial-link">Compare All Programmes <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="row g-4">
+          
+          <!-- Cambridge O Level / IGCSE -->
+          <div class="col-md-6 col-lg-4">
+            <div class="programme-editorial-card">
+              <div>
+                <span class="programme-badge-board">CAMBRIDGE INTERNATIONAL</span>
+                <h3 class="programme-card-title">Cambridge O Level / IGCSE</h3>
+                <p class="programme-card-desc">
+                  Full two-year courses and one-year fast tracks across sciences, maths, business and English. Taught strictly to current Cambridge syllabus codes.
+                </p>
+              </div>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <a href="programmes/cambridge-o-level-igcse.html" class="btn-editorial-link">View Cambridge O Level <i class="fa-solid fa-arrow-right"></i></a>
+                <span class="small font-mono text-muted">May/June & Oct/Nov</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pearson Edexcel International GCSE -->
+          <div class="col-md-6 col-lg-4">
+            <div class="programme-editorial-card">
+              <div>
+                <span class="programme-badge-board">PEARSON EDEXCEL</span>
+                <h3 class="programme-card-title">Pearson Edexcel International GCSE</h3>
+                <p class="programme-card-desc">
+                  Specification-mapped classes with January and May/June exam-series pathways. Rigorous focus on Edexcel calculation layout and command words.
+                </p>
+              </div>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <a href="programmes/edexcel-international-gcse.html" class="btn-editorial-link">View Edexcel IGCSE <i class="fa-solid fa-arrow-right"></i></a>
+                <span class="small font-mono text-muted">Jan & May/June</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cambridge AS & A Level -->
+          <div class="col-md-6 col-lg-4">
+            <div class="programme-editorial-card">
+              <div>
+                <span class="programme-badge-board">CAMBRIDGE INTERNATIONAL</span>
+                <h3 class="programme-card-title">Cambridge AS & A Level</h3>
+                <p class="programme-card-desc">
+                  Rigorous subject teaching for AS, full A Level and staged assessment routes. Prepares students for top-band evaluation and university entry.
+                </p>
+              </div>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <a href="programmes/cambridge-as-a-level.html" class="btn-editorial-link">View Cambridge A Level <i class="fa-solid fa-arrow-right"></i></a>
+                <span class="small font-mono text-muted">Linear & Staged</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pearson Edexcel IAL -->
+          <div class="col-md-6 col-lg-4">
+            <div class="programme-editorial-card">
+              <div>
+                <span class="programme-badge-board">PEARSON EDEXCEL</span>
+                <h3 class="programme-card-title">Edexcel International AS & A Level</h3>
+                <p class="programme-card-desc">
+                  Unit-by-unit teaching built around the modular IAL structure and resit flexibility across January, June and October exam windows.
+                </p>
+              </div>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <a href="programmes/edexcel-international-a-level.html" class="btn-editorial-link">View Edexcel IAL <i class="fa-solid fa-arrow-right"></i></a>
+                <span class="small font-mono text-muted">Modular Units</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Crash Courses & Bootcamps -->
+          <div class="col-md-6 col-lg-4">
+            <div class="programme-editorial-card">
+              <div>
+                <span class="programme-badge-board">EXAM INTENSIVE</span>
+                <h3 class="programme-card-title">Crash Courses & Bootcamps</h3>
+                <p class="programme-card-desc">
+                  6–8 week intensive revision before each exam series, featuring high-yield topic blitzes, weekly timed papers and two full invigilated mock exams.
+                </p>
+              </div>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <a href="programmes/crash-courses.html" class="btn-editorial-link">See Crash Courses <i class="fa-solid fa-arrow-right"></i></a>
+                <span class="small font-mono text-muted">6–8 Weeks</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1:1 Private Tutoring -->
+          <div class="col-md-6 col-lg-4">
+            <div class="programme-editorial-card">
+              <div>
+                <span class="programme-badge-board">INDIVIDUAL</span>
+                <h3 class="programme-card-title">1:1 Private Tutoring</h3>
+                <p class="programme-card-desc">
+                  Personal tutoring for any subject, scheduled at a time that suits your family. Ideal for fixing topic gaps, retakers, or chasing an A* boundary.
+                </p>
+              </div>
+              <div class="pt-3 border-top d-flex justify-content-between align-items-center">
+                <a href="programmes/private-tutoring.html" class="btn-editorial-link">Find a Tutor <i class="fa-solid fa-arrow-right"></i></a>
+                <span class="small font-mono text-muted">Custom Hours</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         THE GOALPAc GRADE PLAN (Section 59 & 325 Brief)
+         ========================================================================== -->
+    <section class="grade-plan-section" aria-labelledby="grade-plan-title">
+      <div class="container-xl">
+        
+        <div class="text-center max-w-75 mx-auto mb-4">
+          <div class="section-eyebrow">OUR 5-STEP LEARNING MODEL</div>
+          <h2 id="grade-plan-title" class="mb-3">The GOALPAc Grade Plan: how effort becomes a grade.</h2>
+          <p class="lead mx-auto" style="max-width: 800px;">
+            Diagnose, Plan, Teach, Practise, Perfect. You start with a free placement assessment, receive a personal study plan, learn in live classes, practise with real exam-style questions and finish with mock exams and examiner-style feedback.
+          </p>
+        </div>
+
+        <div class="grade-plan-track">
+          
+          <!-- Step 1 -->
+          <div class="grade-step-card">
+            <div class="grade-step-num">STAGE 01</div>
+            <h3 class="grade-step-title">Diagnose</h3>
+            <p class="grade-step-desc">A free 45-minute baseline placement test and adviser interview identifies current grade level, strengths, and specific knowledge gaps.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="grade-step-card">
+            <div class="grade-step-num">STAGE 02</div>
+            <h3 class="grade-step-title">Plan</h3>
+            <p class="grade-step-desc">A personal study plan maps every syllabus topic to the target exam series, establishing weekly milestones and batch timetable.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="grade-step-card">
+            <div class="grade-step-num">STAGE 03</div>
+            <h3 class="grade-step-title">Teach</h3>
+            <p class="grade-step-desc">Live interactive classes cover every topic line-by-line in groups of 12 or fewer. Every single session is recorded for 24/7 revision.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="grade-step-card">
+            <div class="grade-step-num">STAGE 04</div>
+            <h3 class="grade-step-title">Practise</h3>
+            <p class="grade-step-desc">Weekly topic quizzes and monthly timed past-paper practice marked strictly against official exam board mark-scheme criteria.</p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="grade-step-card">
+            <div class="grade-step-num">STAGE 05</div>
+            <h3 class="grade-step-title">Perfect</h3>
+            <p class="grade-step-desc">Targeted revision sprints, two full invigilated mock exams and examiner-style feedback clinics before the real exam day.</p>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="about/grade-plan.html" class="btn-goalpac-outline-navy">Learn how the Grade Plan works <i class="fa-solid fa-arrow-right small ms-2"></i></a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WHY GOALPAc (Differentiators)
+         ========================================================================== -->
+    <section class="py-5 bg-surface border-bottom" aria-labelledby="why-goalpac-title">
+      <div class="container-xl">
+        
+        <div class="row align-items-center g-5 mb-5">
+          <div class="col-lg-6">
+            <div class="section-eyebrow">OUR COMMITMENT</div>
+            <h2 id="why-goalpac-title" class="mb-3">Why Families Worldwide Choose GOALPAc</h2>
+            <blockquote class="blockquote border-start border-3 border-warning ps-3 my-4">
+              <p class="font-serif fst-italic text-navy fs-5 mb-0">“We believe a student’s grade should depend on their effort, never on their postcode.”</p>
+            </blockquote>
+            <p class="text-muted">
+              We eliminate the compromises of traditional local tutoring: long commutes, inexperienced teachers, oversized batches, and lack of syllabus alignment.
+            </p>
+          </div>
+          
+          <div class="col-lg-6">
+            <div class="row g-3">
+              
+              <div class="col-12 p-3 border rounded-1 bg-parchment">
+                <h5 class="font-serif text-navy mb-1"><i class="fa-solid fa-video text-gold me-2"></i>Live, never pre-recorded</h5>
+                <p class="text-muted small mb-0">Ask, solve and get feedback in real time, in classes of twelve or fewer.</p>
+              </div>
+
+              <div class="col-12 p-3 border rounded-1 bg-parchment">
+                <h5 class="font-serif text-navy mb-1"><i class="fa-solid fa-award text-gold me-2"></i>Board specialists</h5>
+                <p class="text-muted small mb-0">Teachers who know exactly how a Cambridge and an Edexcel mark scheme differ.</p>
+              </div>
+
+              <div class="col-12 p-3 border rounded-1 bg-parchment">
+                <h5 class="font-serif text-navy mb-1"><i class="fa-solid fa-clock text-gold me-2"></i>Your time zone</h5>
+                <p class="text-muted small mb-0">Batches for Asia, the Middle East, Africa, Europe and the Americas.</p>
+              </div>
+
+              <div class="col-12 p-3 border rounded-1 bg-parchment">
+                <h5 class="font-serif text-navy mb-1"><i class="fa-solid fa-film text-gold me-2"></i>Every lesson recorded</h5>
+                <p class="text-muted small mb-0">Rewatch any explanation in your portal, any time before the exam.</p>
+              </div>
+
+              <div class="col-12 p-3 border rounded-1 bg-parchment">
+                <h5 class="font-serif text-navy mb-1"><i class="fa-solid fa-user-check text-gold me-2"></i>A mentor for every student</h5>
+                <p class="text-muted small mb-0">Monthly one-to-one check-ins on progress, habits and wellbeing.</p>
+              </div>
+
+              <div class="col-12 p-3 border rounded-1 bg-parchment">
+                <h5 class="font-serif text-navy mb-1"><i class="fa-solid fa-id-card text-gold me-2"></i>Private candidates welcome</h5>
+                <p class="text-muted small mb-0">Step-by-step help to register and sit exams without a school.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PARENTS SEE REAL PROGRESS (Sample Monthly Report Showcase)
+         ========================================================================== -->
+    <section class="parents-showcase-section" aria-labelledby="parents-report-title">
+      <div class="container-xl">
+        <div class="row align-items-center g-5">
+          
+          <div class="col-lg-5">
+            <div class="section-eyebrow">TRANSPARENT ACCOUNTABILITY</div>
+            <h2 id="parents-report-title" class="mb-3">Parents see real progress, every month.</h2>
+            <p class="lead mb-4">
+              Each month you receive a written report: attendance, quiz and paper scores, the current working grade against the target, and the teacher’s next steps. Online parent-teacher meetings run every term.
+            </p>
+            <div class="p-3 bg-white border border-start-3 border-primary rounded-1 mb-4" style="border-left: 3px solid var(--navy-primary) !important;">
+              <div class="fw-bold text-navy mb-1"><i class="fa-regular fa-comment-dots text-gold me-2"></i>Termly Online PTMs</div>
+              <p class="text-muted small mb-0">Speak directly with your child's subject teachers and personal mentor to review progress and exam strategy.</p>
+            </div>
+            <a href="support/parents.html" class="btn-goalpac-outline-navy">Explore Parents' Hub <i class="fa-solid fa-arrow-right small ms-2"></i></a>
+          </div>
+
+          <!-- Sample Monthly Report Interactive Card Mockup -->
+          <div class="col-lg-7">
+            <div class="sample-report-mockup">
+              <span class="sample-report-badge">Sample Monthly Report</span>
+              
+              <div class="d-flex gap-2 mb-3">
+                <button type="button" class="btn btn-sm btn-goalpac-gold report-switcher-btn active" data-subject="maths">O Level Maths 4024</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary report-switcher-btn" data-subject="physics">A Level Physics 9702</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary report-switcher-btn" data-subject="economics">Edexcel IAL Economics</button>
+              </div>
+
+              <div class="sample-report-header">
+                <div>
+                  <h4 id="report-subject-title" class="font-serif text-navy mb-0">Cambridge O Level Mathematics (4024)</h4>
+                  <small class="text-muted">Student: Candidate A | Reporting Period: Month 3 of 10</small>
+                </div>
+                <div class="text-end">
+                  <span class="badge bg-success">Status: On Track</span>
+                </div>
+              </div>
+
+              <div class="row g-2 mb-3">
+                <div class="col-3">
+                  <div class="sample-report-metric">
+                    <div id="report-metric-target" class="sample-report-metric-value text-gold">A*</div>
+                    <div class="sample-report-metric-label">Target Grade</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="sample-report-metric">
+                    <div id="report-metric-working" class="sample-report-metric-value text-navy">A (78%)</div>
+                    <div class="sample-report-metric-label">Working Grade</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="sample-report-metric">
+                    <div id="report-metric-attendance" class="sample-report-metric-value text-navy">96%</div>
+                    <div class="sample-report-metric-label">Attendance</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="sample-report-metric">
+                    <div id="report-metric-test" class="sample-report-metric-value text-navy">84%</div>
+                    <div class="sample-report-metric-label">Quiz Avg</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Progress Bar -->
+              <div class="mb-3">
+                <div class="d-flex justify-content-between small text-muted mb-1">
+                  <span>Syllabus Covered: 68% (Ahead of Schedule)</span>
+                  <span class="font-mono">Series: May/June</span>
+                </div>
+                <div class="progress" style="height: 6px;">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 68%; background-color: var(--gold-primary) !important;" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <!-- Teacher's Next Step Box -->
+              <div id="report-teacher-feedback" class="sample-report-teacher-box">
+                Teacher next step: Focus on non-calculator mental arithmetic speed for Paper 1 (Section B algebra and coordinate geometry). Recommended 2 past-paper clinics this month.
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         POPULAR SUBJECTS & FEATURED 4024 SPOTLIGHT & SUBJECT FINDER
+         ========================================================================== -->
+    <section class="subjects-directory-section" aria-labelledby="subjects-title">
+      <div class="container-xl">
+        
+        <div class="row justify-content-between align-items-end mb-4">
+          <div class="col-lg-8">
+            <div class="section-eyebrow">ACADEMIC CURRICULUM</div>
+            <h2 id="subjects-title" class="mb-2">Popular Subjects Taught Live</h2>
+            <p class="text-muted">Line-by-line syllabus teaching, mark scheme mastery, and recorded revision lessons for every core discipline.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="subjects/index.html" class="btn-editorial-link">Browse all 14 subjects <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Featured Subject Spotlight: Cambridge O Level Mathematics (4024) -->
+        <div class="featured-subject-spotlight">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="badge-code-gold">FEATURED SYLLABUS</span>
+                <span class="font-mono text-white-50 small">Subject Code: 4024</span>
+              </div>
+              <h3 class="font-serif text-white mb-2">Cambridge O Level Mathematics (4024)</h3>
+              <p class="text-white-50 mb-3" style="max-width: 750px;">
+                Taught live online across 3 sessions a week. Master Paper 1 (Non-calculator, 2 hours, 50%) and Paper 2 (Calculator allowed, 2 hours, 50%) with structured past-paper clinics and non-calculator mental maths sprints.
+              </p>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-light text-dark py-1 px-2 font-mono">Number</span>
+                <span class="badge bg-light text-dark py-1 px-2 font-mono">Algebra & Graphs</span>
+                <span class="badge bg-light text-dark py-1 px-2 font-mono">Coordinate Geometry</span>
+                <span class="badge bg-light text-dark py-1 px-2 font-mono">Trigonometry</span>
+                <span class="badge bg-light text-dark py-1 px-2 font-mono">Probability & Stats</span>
+              </div>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="subjects/cambridge-o-level-mathematics.html" class="btn-goalpac-gold mb-2 d-inline-block">View Full 4024 Syllabus Page</a>
+              <div class="text-white-50 small">Batches starting every month</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Subject / Course Finder Filter Tool (Prompt Section 22) -->
+        <div class="p-4 bg-parchment border rounded-2 mb-5">
+          <div class="row align-items-center g-3 mb-3">
+            <div class="col-md-3">
+              <label for="finder-board" class="form-label-inst">Exam Board</label>
+              <select id="finder-board" class="form-select form-control-inst">
+                <option value="all">All Boards</option>
+                <option value="cambridge">Cambridge International</option>
+                <option value="edexcel">Pearson Edexcel</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="finder-level" class="form-label-inst">Qualification Level</label>
+              <select id="finder-level" class="form-select form-control-inst">
+                <option value="all">All Levels</option>
+                <option value="o-level">O Level</option>
+                <option value="igcse">IGCSE / Int. GCSE</option>
+                <option value="a-level">AS & A Level</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label for="finder-search" class="form-label-inst">Search Subject or Code</label>
+              <input type="text" id="finder-search" class="form-control form-control-inst" placeholder="e.g. 4024, Physics, Maths...">
+            </div>
+            <div class="col-md-2 d-flex align-items-end">
+              <span class="text-muted small">Instant interactive search</span>
+            </div>
+          </div>
+
+          <!-- Dynamic Subject Filter Results -->
+          <div id="finder-results-grid" class="row g-3">
+            <!-- Populated via main.js -->
+          </div>
+        </div>
+
+        <!-- Popular Subjects Pills (Docx Section 339) -->
+        <div>
+          <div class="small fw-bold text-uppercase text-muted font-mono mb-2">Quick Subject Index:</div>
+          <div class="subjects-pill-grid">
+            <a href="subjects/mathematics.html" class="subject-tag-pill"><i class="fa-solid fa-calculator text-gold"></i> Mathematics</a>
+            <a href="subjects/mathematics.html" class="subject-tag-pill"><i class="fa-solid fa-square-root-variable text-gold"></i> Additional Mathematics</a>
+            <a href="subjects/mathematics.html" class="subject-tag-pill"><i class="fa-solid fa-infinity text-gold"></i> Further Mathematics</a>
+            <a href="subjects/sciences.html" class="subject-tag-pill"><i class="fa-solid fa-atom text-gold"></i> Physics</a>
+            <a href="subjects/sciences.html" class="subject-tag-pill"><i class="fa-solid fa-flask text-gold"></i> Chemistry</a>
+            <a href="subjects/sciences.html" class="subject-tag-pill"><i class="fa-solid fa-dna text-gold"></i> Biology</a>
+            <a href="subjects/business-humanities.html" class="subject-tag-pill"><i class="fa-solid fa-chart-line text-gold"></i> Economics</a>
+            <a href="subjects/business-humanities.html" class="subject-tag-pill"><i class="fa-solid fa-briefcase text-gold"></i> Business Studies</a>
+            <a href="subjects/business-humanities.html" class="subject-tag-pill"><i class="fa-solid fa-file-invoice-dollar text-gold"></i> Accounting</a>
+            <a href="subjects/computing-ict.html" class="subject-tag-pill"><i class="fa-solid fa-laptop-code text-gold"></i> Computer Science</a>
+            <a href="subjects/computing-ict.html" class="subject-tag-pill"><i class="fa-solid fa-network-wired text-gold"></i> ICT</a>
+            <a href="subjects/english-languages.html" class="subject-tag-pill"><i class="fa-solid fa-pen-nib text-gold"></i> English Language</a>
+            <a href="subjects/business-humanities.html" class="subject-tag-pill"><i class="fa-solid fa-brain text-gold"></i> Psychology</a>
+            <a href="subjects/business-humanities.html" class="subject-tag-pill"><i class="fa-solid fa-users text-gold"></i> Sociology</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         OUR LEARNING PROMISE & RIGHT-FIT GUARANTEE (Section 18 & 341 Brief)
+         ========================================================================== -->
+    <section class="py-5 bg-parchment border-bottom">
+      <div class="container-xl">
+        <div class="row g-4 text-center">
+          
+          <div class="col-md-2-4 col-sm-6">
+            <div class="p-3">
+              <i class="fa-solid fa-circle-check text-gold fa-2x mb-2"></i>
+              <h6 class="font-serif text-navy fw-bold mb-1">Free First Class</h6>
+              <p class="text-muted small mb-0">Experience a real live lesson before committing.</p>
+            </div>
+          </div>
+
+          <div class="col-md-2-4 col-sm-6">
+            <div class="p-3">
+              <i class="fa-solid fa-handshake-simple text-gold fa-2x mb-2"></i>
+              <h6 class="font-serif text-navy fw-bold mb-1">Right-Fit Guarantee</h6>
+              <p class="text-muted small mb-0">Switch batch or subject if your timetable shifts.</p>
+            </div>
+          </div>
+
+          <div class="col-md-2-4 col-sm-6">
+            <div class="p-3">
+              <i class="fa-solid fa-record-vinyl text-gold fa-2x mb-2"></i>
+              <h6 class="font-serif text-navy fw-bold mb-1">No Missed Learning</h6>
+              <p class="text-muted small mb-0">Every single session recorded within 24 hours.</p>
+            </div>
+          </div>
+
+          <div class="col-md-2-4 col-sm-6">
+            <div class="p-3">
+              <i class="fa-solid fa-chart-column text-gold fa-2x mb-2"></i>
+              <h6 class="font-serif text-navy fw-bold mb-1">Honest Reporting</h6>
+              <p class="text-muted small mb-0">Monthly working grades against real mark schemes.</p>
+            </div>
+          </div>
+
+          <div class="col-md-2-4 col-sm-6">
+            <div class="p-3">
+              <i class="fa-solid fa-shield-halved text-gold fa-2x mb-2"></i>
+              <h6 class="font-serif text-navy fw-bold mb-1">Transparent Fees</h6>
+              <p class="text-muted small mb-0">Clear monthly and termly plans. No hidden costs.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FREE TRIAL CLASS BAND (Section 343 Brief)
+         ========================================================================== -->
+    <section id="trial-section" class="free-trial-section" aria-labelledby="trial-title">
+      <div class="container-xl">
+        <div class="row align-items-center g-5">
+          
+          <div class="col-lg-5">
+            <div class="section-eyebrow">EXPERIENCE GOALPAC</div>
+            <h2 id="trial-title" class="mb-3">Try a live class, free.</h2>
+            <p class="lead mb-4">
+              Join a real GOALPAc class in your subject, meet your teacher and see how the online classroom works. No cost and no obligation to enrol.
+            </p>
+            <div class="d-flex flex-column gap-3 mb-4">
+              <div class="d-flex align-items-start gap-3">
+                <i class="fa-solid fa-check-circle text-gold mt-1"></i>
+                <div>
+                  <strong class="text-navy">Live small group:</strong> Maximum 12 students in every class.
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-3">
+                <i class="fa-solid fa-check-circle text-gold mt-1"></i>
+                <div>
+                  <strong class="text-navy">Board specialist teacher:</strong> Expert in Cambridge or Pearson Edexcel mark schemes.
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-3">
+                <i class="fa-solid fa-check-circle text-gold mt-1"></i>
+                <div>
+                  <strong class="text-navy">Immediate recording access:</strong> Review your trial class recording in the portal.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Free Trial Booking Form Card -->
+          <div class="col-lg-7">
+            <div class="trial-form-card">
+              
+              <div id="trial-success-alert" class="alert alert-success p-4 text-center" style="display:none;">
+                <i class="fa-solid fa-circle-check fa-3x text-success mb-3"></i>
+                <h4 class="font-serif text-navy mb-2">Free Trial Request Received</h4>
+                <p class="mb-2">Thank you! Our academic admissions adviser will contact you via WhatsApp and email within 24 hours with your live class link and placement checklist.</p>
+                <small class="text-muted">Questions? Reach out directly via <a href="https://wa.me/message/GOALPAC" class="fw-bold text-success">WhatsApp</a>.</small>
+              </div>
+
+              <form id="goalpac-trial-form">
+                <h4 class="font-serif text-navy mb-4">Book Your Free Trial Class</h4>
+                
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label-inst">Student Full Name *</label>
+                    <input type="text" name="student_name" class="form-control form-control-inst" required placeholder="e.g. Sarah Khan">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label-inst">Parent / Guardian Email *</label>
+                    <input type="email" name="parent_email" class="form-control form-control-inst" required placeholder="parent@example.com">
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <label class="form-label-inst">Parent WhatsApp (with country code) *</label>
+                    <input type="tel" name="parent_whatsapp" class="form-control form-control-inst" required placeholder="+44 / +880 / +971...">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label-inst">Country / Time Zone *</label>
+                    <input type="text" name="country" class="form-control form-control-inst" required placeholder="e.g. Bangladesh / UAE / UK">
+                  </div>
+
+                  <div class="col-md-4">
+                    <label class="form-label-inst">Exam Board *</label>
+                    <select name="exam_board" class="form-select form-control-inst" required>
+                      <option value="" disabled selected>Select Board</option>
+                      <option value="Cambridge">Cambridge International</option>
+                      <option value="Pearson Edexcel">Pearson Edexcel</option>
+                      <option value="Not Sure">Not sure yet</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label-inst">Level *</label>
+                    <select name="level" class="form-select form-control-inst" required>
+                      <option value="" disabled selected>Select Level</option>
+                      <option value="O Level / IGCSE">O Level / IGCSE</option>
+                      <option value="AS & A Level">AS & A Level</option>
+                      <option value="Foundation">Foundation (Grades 7–8)</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label-inst">Subject *</label>
+                    <select name="subject" class="form-select form-control-inst" required>
+                      <option value="" disabled selected>Select Subject</option>
+                      <option value="Mathematics">Mathematics</option>
+                      <option value="Additional Mathematics">Additional Mathematics</option>
+                      <option value="Physics">Physics</option>
+                      <option value="Chemistry">Chemistry</option>
+                      <option value="Biology">Biology</option>
+                      <option value="Economics">Economics</option>
+                      <option value="Business Studies">Business Studies</option>
+                      <option value="Accounting">Accounting</option>
+                      <option value="Computer Science">Computer Science</option>
+                      <option value="English Language">English Language</option>
+                      <option value="Other">Other Subject</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn-goalpac-gold w-100 py-3">
+                      <i class="fa-solid fa-paper-plane"></i> Book my free trial class
+                    </button>
+                    <small class="text-muted d-block text-center mt-2" style="font-size:0.75rem;">
+                      By submitting, you consent to GOALPAc contacting you regarding your free trial. We respect student privacy under our Safeguarding and Privacy policies.
+                    </small>
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HOME FAQS (Docx Section 345 & FAQPage Schema)
+         ========================================================================== -->
+    <section class="faq-section" aria-labelledby="faqs-title">
+      <div class="container-xl">
+        
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center">
+            <div class="section-eyebrow">COMMON QUESTIONS</div>
+            <h2 id="faqs-title" class="mb-3">Frequently Asked Questions</h2>
+            <p class="text-muted">Clear answers about our live classes, exam board syllabuses, and how we support private candidates worldwide.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            
+            <div class="accordion goalpac-accordion" id="homeFaqAccordion">
+              
+              <!-- FAQ 1 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Are GOALPAc classes live?
+                  </button>
+                </h3>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#homeFaqAccordion">
+                  <div class="accordion-body">
+                    Yes. Every core class is taught live online and recorded, so students can rewatch any lesson in their portal 24/7 before exam day. Students interact live with the teacher, ask questions, and solve past-paper steps in real time.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 2 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Which exam boards do you teach?
+                  </button>
+                </h3>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#homeFaqAccordion">
+                  <div class="accordion-body">
+                    We teach Cambridge O Level, IGCSE and International AS & A Level, and Pearson Edexcel International GCSE and International AS & A Level. Classes are kept in separate board-specific batches mapped point-by-point to each official specification.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 3 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Can my child join from any country?
+                  </button>
+                </h3>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#homeFaqAccordion">
+                  <div class="accordion-body">
+                    Yes. We teach students worldwide and schedule batches across major time zones, including South Asia, the Middle East, Africa, Europe and the Americas. All you need is a laptop or tablet and a stable internet connection.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 4 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    How large are the classes?
+                  </button>
+                </h3>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#homeFaqAccordion">
+                  <div class="accordion-body">
+                    Group classes have twelve students at most to guarantee individual teacher attention, active participation, and regular feedback on written working. One-to-one private tutoring is also available.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 5 -->
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Do you register students for exams?
+                  </button>
+                </h3>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#homeFaqAccordion">
+                  <div class="accordion-body">
+                    We are a tuition provider, not an exam centre. Our private candidate guide and advisers walk families through registration with an approved local examination centre (such as a British Council office or registered Cambridge / Pearson school centre).
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="text-center mt-4">
+              <span class="text-muted me-2">Have more questions?</span>
+              <a href="faqs.html" class="btn-editorial-link">View all FAQs <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       INSTITUTIONAL FOOTER & INDEPENDENCE DISCLAIMER (Prompt Section 07 & 16)
+       ========================================================================== -->
+  <footer class="goalpac-footer" aria-label="Institutional Footer">
+    <div class="container-xl">
+      
+      <div class="row g-5">
+        
+        <!-- Column 1: GOALPAc Brand & Mission -->
+        <div class="col-lg-4">
+          <div class="footer-brand-title">GOALPAc</div>
+          <div class="font-mono text-gold small mb-3">Global O and A Level Preparation Academy</div>
+          <p class="text-muted small mb-4" style="color: #94A3B8 !important; line-height: 1.65;">
+            Live online classes for Cambridge and Pearson Edexcel O Level, IGCSE and AS & A Level students worldwide. Small groups, board-experienced teachers, dedicated mentorship, and monthly written parent reports.
+          </p>
+          <div class="mb-4">
+            <span class="d-block small text-white fw-bold mb-1">Our Tagline:</span>
+            <span class="font-serif fst-italic text-gold">“Your Goal. Your Grade. Our Plan.”</span>
+          </div>
+          <div>
+            <span class="d-block small text-white fw-bold mb-2">Get free study tips and exam-date reminders:</span>
+            <form class="d-flex gap-2">
+              <input type="email" class="form-control form-control-sm bg-dark border-secondary text-white" placeholder="Enter your email" required style="font-size:0.8rem;">
+              <button type="submit" class="btn btn-sm btn-goalpac-gold text-nowrap px-3">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Column 2: Programmes -->
+        <div class="col-6 col-md-3 col-lg-2">
+          <div class="footer-column-heading">Programmes</div>
+          <ul class="footer-link-list">
+            <li><a href="programmes/cambridge-o-level-igcse.html">Cambridge O Level / IGCSE</a></li>
+            <li><a href="programmes/edexcel-international-gcse.html">Edexcel Int. GCSE</a></li>
+            <li><a href="programmes/cambridge-as-a-level.html">Cambridge AS & A Level</a></li>
+            <li><a href="programmes/edexcel-international-a-level.html">Edexcel Int. A Level (IAL)</a></li>
+            <li><a href="programmes/crash-courses.html">Crash Courses & Bootcamps</a></li>
+            <li><a href="programmes/private-tutoring.html">1:1 Private Tutoring</a></li>
+            <li><a href="subjects/cambridge-o-level-mathematics.html">Cambridge Maths (4024)</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Institutional -->
+        <div class="col-6 col-md-3 col-lg-2">
+          <div class="footer-column-heading">GOALPAc</div>
+          <ul class="footer-link-list">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about-mission.html">Mission & Values</a></li>
+            <li><a href="grade-plan.html">The GOALPAc Grade Plan</a></li>
+            <li><a href="faculty.html">Our Faculty</a></li>
+            <li><a href="how-it-works/schedules-time-zones.html">Class Schedules</a></li>
+            <li><a href="careers.html">Teach With Us</a></li>
+            <li><a href="partners.html">Partner Schools & Agents</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Help & Exams -->
+        <div class="col-6 col-md-3 col-lg-2">
+          <div class="footer-column-heading">Help & Exams</div>
+          <ul class="footer-link-list">
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="admissions/fees.html">Programme Fees</a></li>
+            <li><a href="exams/exam-dates.html">Exam Series & Dates</a></li>
+            <li><a href="exams/private-candidates.html">Private Candidate Guide</a></li>
+            <li><a href="resources/command-words.html">Command Words Sheet</a></li>
+            <li><a href="tools/exam-countdown.html">Exam Countdown</a></li>
+            <li><a href="#portal">Student Portal Login</a></li>
+            <li><a href="#portal">Parent Portal Login</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 5: Legal & Compliance -->
+        <div class="col-6 col-md-3 col-lg-2">
+          <div class="footer-column-heading">Legal & Policies</div>
+          <ul class="footer-link-list">
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="refund-policy.html">Refund Policy</a></li>
+            <li><a href="safeguarding.html">Safeguarding Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="accessibility.html">Accessibility Statement</a></li>
+            <li><a href="academic-integrity.html">Academic Integrity</a></li>
+            <li><a href="independence-statement.html" class="text-gold">Independence Statement</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Prominent Independence Statement Banner (Prompt Section 07) -->
+      <div class="footer-independence-banner">
+        <strong class="text-white">Independence Statement:</strong> GOALPAc is an independent education provider and is not affiliated with, or endorsed by, Cambridge University Press & Assessment or Pearson Edexcel. All trademarks belong to their respective owners. Exam board names are used solely to describe the syllabuses taught. Never promise guaranteed grades.
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+          © 2026 Global O and A Level Preparation Academy (GOALPAc). All rights reserved.
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <span>Registered Office: [Address to be inserted prior to launch]</span>
+          <span class="text-muted">|</span>
+          <a href="mailto:admissions@goalpac.com" class="text-muted text-decoration-none">admissions@goalpac.com</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       GLOBAL UX ELEMENTS (Floating WhatsApp & Sticky Mobile Bar & Cookies)
+       ========================================================================== -->
+  <!-- Floating WhatsApp Helpline -->
+  <a href="https://wa.me/message/GOALPAC" target="_blank" rel="noopener" class="floating-whatsapp-btn" aria-label="Chat with Admissions on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Sticky Mobile Action Strip (Visible on mobile viewports) -->
+  <div class="sticky-mobile-action-bar">
+    <a href="#trial-section" class="btn btn-goalpac-gold flex-grow-1 text-center py-2" style="font-size:0.85rem;">
+      <i class="fa-solid fa-calendar-check me-1"></i> Free Trial Class
+    </a>
+    <a href="https://wa.me/message/GOALPAC" target="_blank" rel="noopener" class="btn btn-goalpac-outline-navy flex-grow-1 text-center py-2" style="font-size:0.85rem;">
+      <i class="fa-brands fa-whatsapp text-success me-1"></i> WhatsApp Us
+    </a>
+  </div>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-notice-banner" class="cookie-notice-banner" role="alert">
+    <div>
+      <i class="fa-solid fa-cookie-bite text-gold me-2"></i>
+      <span>We use essential cookies to maintain secure student sessions and analyze learning platform performance. Review our <a href="cookie-policy.html" class="text-white text-decoration-underline">Cookie Policy</a>.</span>
+    </div>
+    <button id="btn-accept-cookies" class="btn btn-sm btn-goalpac-gold px-3 py-1">Accept</button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

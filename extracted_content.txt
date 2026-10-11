@@ -1,0 +1,1283 @@
+﻿GOALPAc
+Global O and A Level Preparation Academy
+Complete Website Content, Sitemap & SEO Pack
+Brand foundation, full menu and URL structure, page-by-page copy with meta data, global SEO and schema, interactive tools, sample subject page, pillar articles, free resources, trust content, lead nurture, visual identity and a 12-month content calendar.
+Prepared for: GOALPAc leadership team
+Version 1.0  |  October 2026
+Placeholders such as [Set price] and [Teacher name] are to be completed before launch. Verify syllabus codes and exam dates against official board websites.
+Contents
+1Brand foundation
+2Site architecture: menu, submenus and URLs
+3Global SEO setup
+4Home page
+5About Us pages
+6Programmes and Subjects pages
+7How It Works pages
+8Admissions and Fees pages
+9Exam Centre pages
+10Faculty, Students and Parents pages
+11Resources, Blog, FAQs and Contact
+12Legal pages, footer and launch checklist
+13Website health plan
+14Interactive tools
+15Full sample subject page: Cambridge O Level Mathematics (4024)
+16Two pillar blog articles, ready to publish
+17Free resource content
+18Trust and social-proof content
+19Lead nurture: free-trial email and WhatsApp sequence
+20Visual identity, imagery, video and content calendar
+1. Brand foundation
+GOALPAc is a fully online academy that prepares students worldwide for Cambridge and Pearson Edexcel O Level (including IGCSE / International GCSE) and AS & A Level exams through live, small-group classes taught by board-experienced teachers.
+Element
+Content
+Full name
+Global O and A Level Preparation Academy
+Short name
+GOALPAc (pronounced “GOAL-pack”)
+Primary tagline
+Your Goal. Your Grade. Our Plan.
+Alternative taglines
+Pack your goals, wherever you are. / World-class O & A Level prep, one click away. / Learn live. Score high. Go global.
+Domain suggestions
+goalpac.com, goalpac.academy, goalpac.org, goalpac.education
+Mission
+To give every O and A Level student, in any country, access to expert live teaching, exam-focused practice and personal mentoring that turns effort into top grades.
+Vision
+To be the world’s most trusted online academy for O and A Level success.
+Positioning statement
+For O and A Level students and parents who want reliable, exam-focused teaching without geographic limits, GOALPAc is the online academy that combines live classes, board-specific exam technique and measurable progress tracking, so every student knows exactly where they stand and what to do next.
+Brand personality
+Ambitious, warm, disciplined, global, results-honest
+Tone of voice
+Clear and encouraging to students; precise and reassuring to parents; never hype, never guaranteed grades
+Core values (GOALS)
+Growth: every lesson moves a student forward from where they are.
+Openness: global access, transparent fees, honest progress reports.
+Accuracy: teaching mapped to the current syllabus codes and mark schemes.
+Learner care: small groups, personal mentors, parents kept informed.
+Standards: qualified teachers, quality-assured lessons, safeguarding first.
+Value proposition: the GOALPAc Grade Plan
+An original five-step learning model used across the site (Home, How It Works, programme pages):
+Diagnose: a free baseline assessment identifies current grade level and gaps.
+Plan: a personal study plan maps topics to the exam series the student is sitting.
+Teach: live interactive classes cover every syllabus topic, with recordings for revision.
+Practise: weekly topic tests and timed past-paper practice marked against official mark-scheme standards.
+Perfect: targeted revision, mock exams and examiner-style feedback before the real exam.
+Key differentiators
+Two boards, one academy: Cambridge and Pearson Edexcel under one roof.
+Live classes, not just videos; every class recorded for 24/7 revision.
+Small groups (maximum 12 students) plus 1:1 tutoring options.
+Time-zone-friendly batches for Asia, Middle East, Africa, Europe and the Americas.
+Monthly progress reports and parent-teacher meetings online.
+Private-candidate guidance for students who are not enrolled in a school.
+Compliance note: GOALPAc is an independent tuition provider. Every page footer and the About page must state that GOALPAc is not affiliated with, or endorsed by, Cambridge University Press & Assessment or Pearson Edexcel, and that board names are used only to describe the syllabuses taught. Never promise guaranteed grades.
+2. Site architecture: menu, submenus and URLs
+The main navigation has 8 top-level items plus two header buttons (“Book a Free Trial” and “Apply Now”); every page sits no more than three clicks from Home.
+Header utility bar (above main menu): Email, WhatsApp, time-zone selector (shows class times in local time), language (English at launch), Student / Parent Login.
+Main menu and submenus
+Main menu
+Submenu
+URL slug
+Home
+/
+About Us
+Who We Are
+/about/
+Mission, Vision & Values
+/about/mission-vision-values/
+Why GOALPAc
+/about/why-goalpac/
+The GOALPAc Grade Plan
+/about/grade-plan/
+Our Faculty
+/about/faculty/
+Academic Quality & Safeguarding
+/about/quality-safeguarding/
+Programmes
+O Level / IGCSE (Cambridge)
+/programmes/cambridge-o-level-igcse/
+International GCSE (Pearson Edexcel)
+/programmes/edexcel-international-gcse/
+AS & A Level (Cambridge International)
+/programmes/cambridge-as-a-level/
+International AS & A Level (Pearson Edexcel)
+/programmes/edexcel-international-a-level/
+Crash Courses & Revision Bootcamps
+/programmes/crash-courses/
+1:1 Private Tutoring
+/programmes/private-tutoring/
+Foundation (Pre-O Level, Grades 7–8)
+/programmes/foundation/
+Subjects
+All Subjects (A–Z)
+/subjects/
+Sciences (Physics, Chemistry, Biology)
+/subjects/sciences/
+Mathematics (Maths, Add Maths, Further Maths)
+/subjects/mathematics/
+Business & Humanities
+/subjects/business-humanities/
+Computing & ICT
+/subjects/computing-ict/
+English & Languages
+/subjects/english-languages/
+Individual subject pages (template)
+/subjects/[board]-[level]-[subject]/
+How It Works
+Our Online Classroom
+/how-it-works/
+Class Schedules & Time Zones
+/how-it-works/schedules-time-zones/
+Learning Platform & Recordings
+/how-it-works/learning-platform/
+Assessments & Progress Reports
+/how-it-works/assessments-progress/
+Free Trial Class
+/how-it-works/free-trial/
+Admissions
+How to Apply
+/admissions/
+Placement Assessment
+/admissions/placement-assessment/
+Fees & Study Plans
+/admissions/fees/
+Scholarships & Sibling Discounts
+/admissions/scholarships/
+Academic Calendar & Intakes
+/admissions/calendar/
+Apply Now (form)
+/admissions/apply/
+Exam Centre
+Exam Series & Key Dates
+/exams/exam-dates/
+Private Candidate Guide
+/exams/private-candidates/
+Past Papers & Mark Schemes Guide
+/exams/past-papers/
+Mock Exams
+/exams/mock-exams/
+Results & Student Achievements
+/exams/results/
+Students & Parents
+Student Support & Mentoring
+/support/students/
+Parents’ Hub
+/support/parents/
+University & Career Guidance
+/support/university-guidance/
+Testimonials
+/support/testimonials/
+FAQs
+/faqs/
+Resources
+Blog
+/blog/
+Free Study Guides & Downloads
+/resources/study-guides/
+Free Tools
+/tools/
+Webinars & Events
+/resources/webinars/
+Grade Boundaries Explained
+/resources/grade-boundaries/
+Contact
+Contact Us
+/contact/
+Teach With Us (careers)
+/careers/
+Partner Schools & Agents
+/partners/
+Header buttons
+Book a Free Trial (primary, gold) links to /how-it-works/free-trial/
+Apply Now (secondary, outline) links to /admissions/apply/
+Footer navigation (four columns)
+GOALPAc: About Us, Our Faculty, Careers, Partners, Contact
+Programmes: Cambridge O Level / IGCSE, Edexcel International GCSE, Cambridge AS & A Level, Edexcel International A Level, Crash Courses, Private Tutoring
+Help: FAQs, Fees, Exam Dates, Private Candidate Guide, Student Login
+Legal: Privacy Policy, Terms of Use, Refund Policy, Safeguarding Policy, Cookie Policy, Accessibility Statement
+URL conventions
+Lowercase, hyphenated, no dates or stop words; trailing slash consistent sitewide.
+Subject pages follow one pattern, e.g. /subjects/cambridge-a-level-physics/ and /subjects/edexcel-igcse-mathematics-a/.
+Blog posts sit at /blog/[post-slug]/ with no category folder, so posts can be recategorised without broken links.
+3. Global SEO setup
+SEO targets five keyword clusters, each owned by one pillar page, with subject pages and blog posts linking up to their pillar so search engines see clear topical authority.
+Keyword clusters
+Cluster
+Pillar page
+Primary keywords
+Supporting long-tail keywords
+Online O and A Level (brand)
+Home
+online O and A level classes; online O level tuition; online A level tuition
+best online academy for O and A levels; live online O level classes worldwide
+Cambridge O Level / IGCSE
+/programmes/cambridge-o-level-igcse/
+Cambridge O level online classes; online IGCSE tuition
+Cambridge O level physics online tutor; IGCSE maths online class for private candidates
+Edexcel International GCSE
+/programmes/edexcel-international-gcse/
+Edexcel IGCSE online classes; Pearson Edexcel International GCSE tuition
+Edexcel IGCSE chemistry online course; Edexcel IGCSE maths A online tutor
+AS & A Level (both boards)
+Cambridge and Edexcel A Level pages
+online A level classes; Cambridge A level online tuition; Edexcel IAL online classes
+A level economics online tutor; IAL unit-based revision course
+Exam help
+Private candidates and past papers pages
+O level private candidate; A level past paper practice
+how to register as a private candidate for A levels; O level exam dates 2027
+On-page rules (every page)
+One H1 per page containing the primary keyword; H2s use supporting keywords naturally.
+Meta title 50–60 characters, brand at the end: “[Keyword phrase] | GOALPAc”.
+Meta description 140–160 characters with one benefit and one call to action.
+Primary keyword in the first 100 words, URL slug, and at least one image alt text.
+Minimum 600 words on programme and subject pages; 1,200–2,000 words on pillar blog posts.
+3–5 internal links per page (up to the pillar, across to related subjects, down to Apply / Free Trial).
+Images compressed to WebP, under 150 KB, with descriptive alt text and file names.
+International targeting
+One global English site at launch on a .com domain (no country folders), so authority is not split.
+Show prices in USD with a currency converter; add hreflang country versions only when a market justifies localised pages (e.g. /bd/, /pk/, /ae/, /ng/, /my/).
+Create a Google Business Profile for the registered office; list on education directories in priority markets.
+Build local relevance through posts such as “O Level exam centres and private candidate registration in [country]”.
+Technical SEO checklist
+☐ HTTPS sitewide; Core Web Vitals passing on mobile (LCP under 2.5 s, CLS under 0.1, INP under 200 ms)
+☐ XML sitemap submitted to Google Search Console and Bing Webmaster Tools
+☐ robots.txt allows all public pages; blocks /login/, /portal/, /cart/ and internal search
+☐ Canonical tags on every page; no duplicate subject pages across boards
+☐ Breadcrumbs on all inner pages (with BreadcrumbList schema)
+☐ Open Graph and Twitter Card tags with a 1200×630 share image per key page
+☐ 301 redirects for any renamed URL; custom 404 page linking to Programmes and Subjects
+☐ GA4 with conversion events: free-trial booking, application submitted, WhatsApp click
+Structured data (JSON-LD)
+Page type
+Schema types
+Home
+EducationalOrganization, WebSite (with SearchAction), Organization logo and sameAs links
+Programme and subject pages
+Course (provider, educationalLevel, courseMode online, hasCourseInstance)
+FAQs and pages with FAQ blocks
+FAQPage
+Blog posts
+Article / BlogPosting with author and datePublished
+Faculty profiles
+Person (jobTitle, worksFor)
+Testimonials
+Review (only for real, verifiable reviews)
+Webinars and events
+Event (OnlineEventAttendanceMode)
+Sample Home page JSON-LD
+{  "@context": "https://schema.org",  "@type": "EducationalOrganization",  "name": "Global O and A Level Preparation Academy (GOALPAc)",  "alternateName": "GOALPAc",  "url": "https://www.goalpac.com/",  "logo": "https://www.goalpac.com/images/goalpac-logo.png",  "description": "Online academy offering live Cambridge and Pearson Edexcel O Level, IGCSE and A Level preparation classes for students worldwide.",  "areaServed": "Worldwide",  "contactPoint": {"@type": "ContactPoint", "contactType": "admissions",    "email": "admissions@goalpac.com", "availableLanguage": ["English"]},  "sameAs": ["https://www.facebook.com/goalpac", "https://www.instagram.com/goalpac",    "https://www.youtube.com/@goalpac", "https://www.linkedin.com/company/goalpac"]}
+Sample Course JSON-LD (subject page)
+{  "@context": "https://schema.org",  "@type": "Course",  "name": "Cambridge A Level Physics Online Course",  "description": "Live online Cambridge International AS & A Level Physics classes with past-paper practice, mock exams and recorded lessons.",  "provider": {"@type": "EducationalOrganization", "name": "GOALPAc", "url": "https://www.goalpac.com/"},  "educationalLevel": "A Level",  "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online", "inLanguage": "en"},  "offers": {"@type": "Offer", "category": "Paid", "priceCurrency": "USD"}}
+Replace domain, emails and social handles once registered. # 
+4. Home page
+Meta field
+Content
+URL
+/
+Meta title
+Online O Level & A Level Classes Worldwide | GOALPAc
+Meta description
+Live online Cambridge & Edexcel O Level, IGCSE and A Level classes for students worldwide. Small groups, expert teachers. Book your free trial today.
+Focus keyword
+online O and A level classes
+OG title
+GOALPAc: Global O and A Level Preparation Academy
+OG description
+Expert-led live online classes for Cambridge and Pearson Edexcel O & A Levels, from anywhere in the world.
+Hero section
+H1: Top grades, taught live, wherever in the world you study.
+Sub-headline: Small-group O Level, IGCSE and AS & A Level classes led by board-experienced subject specialists, scheduled for your time zone and recorded for every revision night.
+Buttons: Book a free trial class | Explore programmes
+Proof row: 12 students at most in every class; 2 exam boards under one roof; 24/7 access to every lesson recording.
+Live classroom board (hero visual): “One classroom, six time zones” showing the live local time in Dhaka, Dubai, Lagos, London, Kuala Lumpur and Toronto, each with an example batch (e.g. Dhaka: A Level Physics 9702). Footnote: “Indicative batch times. Your exact timetable is confirmed after placement.”
+Who we help
+H2: One Academy. Two Boards. Every Ambition.
+Starting O Level, chasing an A* at A Level, retaking a paper or sitting as a private candidate: each programme follows its board’s syllabus line by line, and each student follows a personal plan.
+O Level & IGCSE students: build strong foundations and master exam technique from Year 9 to Year 11.
+AS & A Level students: go deeper, think like an examiner and secure the grades your university needs.
+Private candidates & retakers: structured teaching and exam guidance, even without a school.
+Schools & partners: top-up classes and subject cover delivered by our faculty.
+Programmes
+H2: Choose Your Programme
+Programme
+Copy
+Link text
+Cambridge O Level / IGCSE
+Full two-year courses and one-year fast tracks across sciences, maths, business and English.
+View Cambridge O Level
+Pearson Edexcel International GCSE
+Specification-mapped classes with January and May/June exam-series pathways.
+View Edexcel IGCSE
+Cambridge AS & A Level
+Rigorous subject teaching for AS, full A Level and staged assessment routes.
+View Cambridge A Level
+Pearson Edexcel International AS & A Level
+Unit-by-unit teaching built around the modular IAL structure and resit flexibility.
+View Edexcel IAL
+Crash Courses & Bootcamps
+6–8 week intensive revision before each exam series, with full mock exams.
+See Crash Courses
+1:1 Private Tutoring
+Personal tutoring for any subject, at a time that suits you.
+Find a Tutor
+The GOALPAc Grade Plan
+H2: The GOALPAc Grade Plan: how effort becomes a grade.
+Diagnose, Plan, Teach, Practise, Perfect. You start with a free placement assessment, receive a personal study plan, learn in live classes, practise with real exam-style questions and finish with mock exams and examiner-style feedback. Button: Learn how it works.
+Why GOALPAc
+Pull quote: “We believe a student’s grade should depend on their effort, never on their postcode.”
+Live, never pre-recorded: ask, solve and get feedback in real time, in classes of twelve or fewer.
+Board specialists: teachers who know exactly how a Cambridge and an Edexcel mark scheme differ.
+Your time zone: batches for Asia, the Middle East, Africa, Europe and the Americas.
+Every lesson recorded: rewatch any explanation in your portal, any time before the exam.
+A mentor for every student: monthly one-to-one check-ins on progress, habits and wellbeing.
+Private candidates welcome: step-by-step help to register and sit exams without a school.
+Parents see real progress
+H2: Parents see real progress, every month.
+Each month you receive a written report: attendance, quiz and paper scores, the current working grade against the target, and the teacher’s next steps. Online parent-teacher meetings run every term. A labelled “Sample monthly report” card illustrates this (attendance, quiz average, timed paper score, syllabus covered, teacher’s next step).
+Popular subjects
+Mathematics, Additional Mathematics, Further Mathematics, Physics, Chemistry, Biology, Economics, Business Studies, Accounting, Computer Science, ICT, English Language, Psychology, Sociology. Button: Browse all subjects.
+Learning promise
+Free first class; right-fit guarantee; no missed learning; honest reporting; transparent fees (full copy in Section 18).
+Free trial band
+H2: Try a live class, free.
+Join a real GOALPAc class in your subject, meet your teacher and see how the online classroom works. No cost and no obligation to enrol. Form: student name, parent email, exam board, level, subject, country. Button: Book my free trial.
+Home FAQs (FAQPage schema)
+Are GOALPAc classes live? Yes. Every core class is taught live online and recorded, so students can rewatch any lesson in their portal.
+Which exam boards do you teach? Cambridge O Level, IGCSE and International AS & A Level, and Pearson Edexcel International GCSE and International AS & A Level.
+Can my child join from any country? Yes. We teach students worldwide and schedule batches across major time zones.
+How large are the classes? Group classes have twelve students at most. One-to-one tutoring is also available.
+Do you register students for exams? We are a tuition provider, not an exam centre. Our private candidate guide and advisers walk families through registration with a recognised centre.
+5. About Us pages
+5.1 Who We Are (/about/)
+Meta field
+Content
+Meta title
+About GOALPAc | Global Online O & A Level Academy
+Meta description
+GOALPAc is a global online academy preparing students for Cambridge and Edexcel O Level, IGCSE and A Level exams through live expert-led classes.
+Focus keyword
+online O and A level academy
+H1: A global academy built on one belief.
+GOALPAc was founded on a simple belief: a student’s grades should depend on their effort, not their postcode. Too many capable O and A Level students cannot find experienced subject teachers nearby, or cannot fit tuition around school, travel and family life. We built GOALPAc to solve that.
+We are a fully online academy teaching the Cambridge and Pearson Edexcel O Level, IGCSE and AS & A Level syllabuses to students around the world. Our classes are live, small and focused on what examiners actually reward. Every lesson is recorded, every student has a mentor and every parent receives regular progress reports.
+What we do: live online courses for O Level, IGCSE / International GCSE and AS & A Level; crash courses before every major exam series; 1:1 private tutoring; exam guidance for private candidates, retakers and home-schooled learners.
+Who we teach: students aged 13–19 in schools, home-schooling families and private candidates across South Asia, the Middle East, Africa, South-East Asia, Europe and beyond.
+Our promise: we will teach every topic in your syllabus, show you how it is examined, tell you honestly where you stand and work with you until exam day.
+Independence statement: GOALPAc is an independent education provider. We are not affiliated with or endorsed by Cambridge University Press & Assessment or Pearson Edexcel. Exam board names are used only to identify the syllabuses we teach.
+5.2 Mission, Vision & Values (/about/mission-vision-values/)
+Meta title: Our Mission, Vision & Values | GOALPAc
+Meta description: Discover the mission, vision and GOALS values that guide how GOALPAc teaches O and A Level students online around the world.
+H1: Our Mission, Vision & Values
+Body: Mission, Vision and the five GOALS values from Section 1, each with a two-sentence explanation of what it means in a GOALPAc classroom. Example, Accuracy: “Every lesson plan is mapped to the current syllabus code. When a board updates its syllabus, we update our teaching before the new course starts.”
+5.3 Why GOALPAc (/about/why-goalpac/)
+Meta title: Why Choose GOALPAc for Online O & A Level Tuition
+Meta description: Live classes, board specialists, small groups and parent reports. See why students worldwide choose GOALPAc for O and A Level success.
+H1: Why Choose GOALPAc?
+Body: A comparison table (GOALPAc vs typical online tuition vs self-study videos) on live teaching, class size, board-specific exam technique, recordings, marked practice, mentor, parent reports and time-zone batches; then the six differentiators and a Free Trial CTA.
+5.4 The GOALPAc Grade Plan (/about/grade-plan/)
+Meta title: The GOALPAc Grade Plan | Our 5-Step Learning Model
+Meta description: Diagnose, Plan, Teach, Practise, Perfect. Discover the five-step learning model that guides every GOALPAc O and A Level student.
+H1: The GOALPAc Grade Plan: Five Steps to Your Target Grade
+Diagnose: 45-minute placement test plus a short interview; parent receives a baseline report.
+Plan: personal study plan with target grade, topic order and exam series.
+Teach: live classes, 2–4 sessions per subject per week, recorded.
+Practise: weekly topic quizzes, monthly timed papers, written feedback.
+Perfect: revision sprints, two full mock exams, final readiness report.
+5.5 Academic Quality & Safeguarding (/about/quality-safeguarding/)
+Meta title: Academic Quality & Student Safeguarding | GOALPAc
+Meta description: How GOALPAc recruits teachers, quality-assures lessons and keeps students safe online, with clear safeguarding and data-protection policies.
+Teacher recruitment: subject degree, minimum three years of teaching O/A Level, demo lesson, references and background checks.
+Lesson quality: syllabus-mapped lesson plans, termly lesson observations, student feedback after every module.
+Safe online learning: secure platform, no private contact between teachers and students outside official channels, secure recordings, a named Designated Safeguarding Lead and a clear reporting route.
+Data protection: student data handled under our Privacy Policy and applicable data-protection laws.
+6. Programmes and Subjects pages
+All four board programme pages share one template (hero, who it’s for, course formats, subjects table, Grade Plan strip, assessment, FAQs, CTA), so content stays consistent and each page targets its own keyword cluster.
+6.0 Programmes overview (/programmes/)
+Meta title: Online O Level, IGCSE & A Level Programmes | GOALPAc
+Meta description: Compare GOALPAc’s live online programmes for Cambridge and Edexcel O Level, IGCSE and A Level, plus crash courses and 1:1 tutoring.
+H1: Online programmes for every stage of O and A Level.
+Programme
+Level
+Typical age
+Course length
+Exam series
+Cambridge O Level / IGCSE
+O Level
+14–16
+2 years or 1-year fast track
+May/June, Oct/Nov
+Pearson Edexcel International GCSE
+O Level
+14–16
+2 years or 1 year
+May/June; January for selected subjects
+Cambridge International AS & A Level
+A Level
+16–19
+AS 1 year; A Level 2 years
+May/June, Oct/Nov
+Pearson Edexcel International AS & A Level
+A Level
+16–19
+Unit-based, 1–2 years
+January, May/June, October
+Crash Courses & Bootcamps
+Both
+14–19
+6–8 weeks
+Next upcoming series
+1:1 Private Tutoring
+Both
+13–19
+Flexible
+Any
+Every enrolment includes: 2–4 live classes per subject each week; recordings within 24 hours; notes and worksheets; weekly topic quizzes; monthly timed papers and two full mocks; monthly parent report and a personal mentor.
+6.1 Cambridge O Level / IGCSE (/programmes/cambridge-o-level-igcse/)
+Meta title: Cambridge O Level & IGCSE Online Classes | GOALPAc
+Meta description: Live online Cambridge O Level and IGCSE classes in maths, sciences, business and English. Small groups, past-paper practice and mock exams. Free trial.
+Focus keyword: Cambridge O level online classes
+H1: Cambridge O Level & IGCSE Online Classes
+Intro: Build the knowledge, skills and exam confidence you need for top grades in Cambridge O Level and Cambridge IGCSE. Our live online classes cover every syllabus topic in order, with regular past-paper practice so you learn exactly how each paper is marked.
+Who it’s for: students in Year 9–11 (Grade 8–10) following Cambridge O Level or IGCSE at school, home-schooled learners and private candidates.
+Course formats: Full Course (2 years); Fast Track (1 year); Retake Course (4–6 months).
+Exam-ready skills: command words, paper-by-paper strategy, practical / Alternative to Practical skills for sciences, time management.
+6.2 Pearson Edexcel International GCSE (/programmes/edexcel-international-gcse/)
+Meta title: Edexcel International GCSE Online Classes | GOALPAc
+Meta description: Live online Pearson Edexcel International GCSE classes with specification-mapped lessons, past-paper practice and expert teachers. Book a free trial.
+H1: Pearson Edexcel International GCSE Online Classes
+Intro: Our Edexcel International GCSE courses follow each specification point by point, so you always know what you have covered and what is left. Teachers train you on Edexcel’s question styles and mark schemes, including the calculation-heavy papers in Maths A, Physics and Chemistry.
+Extra H2: Choosing your exam series (January versus May/June entry for available subjects).
+6.3 Cambridge International AS & A Level (/programmes/cambridge-as-a-level/)
+Meta title: Cambridge A Level Online Classes (AS & A2) | GOALPAc
+Meta description: Live online Cambridge International AS & A Level classes taught by subject specialists. Staged or linear routes, past papers, mocks. Free trial.
+H1: Cambridge International AS & A Level Online Classes
+Intro: A Level grades open university doors. Our courses go beyond content coverage to teach analysis, evaluation and extended writing at the standard examiners reward with A and A* grades.
+Assessment routes explained: staged (AS then A Level), linear (all papers at the end) and AS-only.
+University-ready skills: independent study, data analysis, essay structure and personal statement support.
+6.4 Pearson Edexcel International AS & A Level (/programmes/edexcel-international-a-level/)
+Meta title: Edexcel International A Level (IAL) Online Classes | GOALPAc
+Meta description: Unit-by-unit online classes for Pearson Edexcel International AS & A Level. Three exam series a year, resit support, expert teachers. Free trial.
+H1: Pearson Edexcel International AS & A Level (IAL) Online Classes
+Intro: The modular IAL structure lets you sit units across January, May/June and October. We teach unit by unit and help you plan the smartest sitting order, including strategic resits to lift your overall grade.
+6.5 Crash Courses & Revision Bootcamps (/programmes/crash-courses/)
+Meta title: O Level & A Level Crash Courses Online | GOALPAc
+Meta description: Intensive 6–8 week online revision bootcamps for O Level, IGCSE and A Level. Topic blitz, timed past papers and full mocks before your exam.
+Body: each week brings three topic-blitz classes, one timed paper and one feedback clinic; two full mock exams; intakes before each major exam series; limited seats per batch.
+6.6 1:1 Private Tutoring (/programmes/private-tutoring/)
+Meta title: 1:1 Online O & A Level Tutors | GOALPAc Private Tutoring
+Meta description: Personal online tutoring for any O Level, IGCSE or A Level subject. Flexible timing, matched tutor, tailored plan. Book a free consultation.
+Body: tutor matching, flexible scheduling, packages of 8, 16 or 24 hours; ideal for gaps, top-grade stretch or the final weeks before an exam.
+6.7 Foundation (/programmes/foundation/)
+Meta title: Pre-O Level Foundation Classes Online (Grades 7–8) | GOALPAc
+Body: Mathematics, Science and English foundations for Grade 7–8 students, bridging into O Level / IGCSE.
+6.8 Subjects offered at launch
+Subject
+Cambridge O Level
+Cambridge IGCSE
+Edexcel Int. GCSE
+Cambridge AS & A Level
+Edexcel IAL
+Mathematics
+4024
+0580
+4MA1
+9709
+YMA01
+Additional / Further Pure Maths
+4037
+0606
+4PM1
+Further Mathematics
+9231
+YFM01
+Physics
+5054
+0625
+4PH1
+9702
+YPH11
+Chemistry
+5070
+0620
+4CH1
+9701
+YCH11
+Biology
+5090
+0610
+4BI1
+9700
+YBI11
+Economics
+2281
+0455
+4EC1
+9708
+YEC11
+Business Studies
+7115
+0450
+4BS1
+9609
+YBS11
+Accounting
+7110
+0452
+4AC1
+9706
+YAC11
+Computer Science
+2210
+0478
+4CP0
+9618
+ICT / IT
+0417
+4IT1
+9626
+YIT11
+English Language
+1123
+0500 / 0510
+4EA1
+9093
+Psychology
+9990
+Sociology
+9699
+Verify each syllabus code and syllabus year on the board’s website before publishing, and review annually.
+6.9 Individual subject page template (/subjects/[board]-[level]-[subject]/)
+Structure: Meta title and description; H1 with board, level, subject and code; 80–120 word intro; Syllabus overview; How the exam works (papers, durations, weightings); How we teach it; Schedule and batches; Your teacher; Subject FAQs (FAQPage schema); CTA; internal links up to the programme, across to related subjects and down to Apply. A complete worked example is in Section 15. # 7. How It Works pages
+7. How It Works
+7.1 Our Online Classroom (/how-it-works/)
+Meta title: How Online O & A Level Classes Work | GOALPAc
+Meta description: See how GOALPAc’s live online classes work: interactive lessons, recordings, quizzes, progress reports and mentoring for O and A Level students.
+H1: How Learning at GOALPAc Works
+Learning online at GOALPAc feels like being in a focused, well-run classroom, without the commute. A typical week:
+Live classes: 60–90 minute interactive lessons with a digital whiteboard, polls and breakout problem-solving.
+Recordings: available in your portal within 24 hours.
+Homework and quizzes: short weekly tasks marked with feedback.
+Doubt-clearing clinic: a weekly drop-in session per subject.
+Mentor check-in: a short monthly 1:1 conversation about progress and wellbeing.
+What you need: a laptop or tablet, a stable connection (5 Mbps or more), headphones with a microphone and a quiet space. Cameras on during class for participation and safeguarding.
+Class rules: join on time, camera on, respectful chat, submit work by the deadline. Students missing three classes in a row receive a mentor call and parents are informed.
+7.2 Class Schedules & Time Zones (/how-it-works/schedules-time-zones/)
+Meta title: O & A Level Online Class Timings for Every Time Zone | GOALPAc
+Meta description: Find GOALPAc class batches for Asia, the Middle East, Africa, Europe and the Americas. View timings in your local time zone and pick your batch.
+H1: Class Schedules for Every Time Zone
+Batch region
+Example coverage
+Weekday slot (local)
+Weekend slot (local)
+South Asia
+Bangladesh, India, Pakistan, Nepal, Sri Lanka
+5:00–8:00 pm
+10:00 am–1:00 pm
+Middle East
+UAE, Saudi Arabia, Qatar, Oman, Kuwait
+4:00–7:00 pm
+10:00 am–1:00 pm
+Africa
+Nigeria, Kenya, Ghana, Zimbabwe, Egypt
+4:00–7:00 pm
+9:00 am–12:00 pm
+South-East Asia
+Malaysia, Singapore, Brunei, Indonesia
+5:00–8:00 pm
+10:00 am–1:00 pm
+Europe & UK
+UK, Europe
+5:00–8:00 pm
+10:00 am–1:00 pm
+Americas
+USA, Canada, Caribbean
+5:00–8:00 pm
+10:00 am–1:00 pm
+Indicative slots for launch. A batch opens when it reaches the minimum group size (suggested: 5 students).
+7.3 Learning Platform & Recordings (/how-it-works/learning-platform/)
+Meta title: GOALPAc Student Portal & Online Learning Platform
+H1: Your Student Portal: Everything in One Place
+Features: join-class button, recordings library by topic, notes and worksheets, online quizzes with instant scores, assignment upload, progress dashboard, parent view, announcements and messages.
+7.4 Assessments & Progress Reports (/how-it-works/assessments-progress/)
+Meta title: Assessments & Progress Reports | GOALPAc Online Academy
+H1: How We Measure Progress
+Assessment
+Frequency
+What it measures
+Who sees results
+Placement test
+On joining
+Starting grade and gaps
+Student, parent, teacher
+Topic quiz
+Weekly
+Understanding of the week’s topic
+Student, teacher
+Timed paper
+Monthly
+Exam technique and timing
+Student, parent, teacher
+Mock exam
+Twice before the exam
+Predicted grade under exam conditions
+Student, parent, teacher
+Progress report
+Monthly
+Attendance, scores, effort, next steps
+Parent and student
+7.5 Free Trial Class (/how-it-works/free-trial/)
+Meta title: Book a Free Online O or A Level Trial Class | GOALPAc
+Meta description: Join a live GOALPAc class free. Choose your board, level and subject, meet the teacher and experience online learning before you enrol.
+H1: Book Your Free Trial Class
+Form fields: student name, parent name, email, WhatsApp number, country / time zone, exam board, level, subject(s), current school year, preferred days, how did you hear about us, privacy consent.
+After submission: thank-you page and confirmation email with joining link and checklist; admissions follow-up within 24 hours.
+8. Admissions and Fees pages
+8.1 How to Apply (/admissions/)
+Meta title: Admissions | Join GOALPAc Online O & A Level Academy
+Meta description: Apply to GOALPAc in four simple steps: free trial, placement assessment, study plan and enrolment. Rolling admissions for students worldwide.
+H1: Join GOALPAc in four steps, usually within a week.
+Book a free trial class: experience a live lesson in your subject.
+Take the placement assessment: a short online test and a call with an academic adviser.
+Receive your study plan: subjects, batch, timetable and fees confirmed in writing.
+Enrol and start learning: pay securely and receive your portal login.
+Entry requirements: O Level / IGCSE: completed Grade 8 or equivalent. AS & A Level: O Level / IGCSE (or equivalent) in related subjects. Private candidates and home-schooled students welcome.
+Documents needed: student ID or passport copy, latest school report or previous results (if available), parent / guardian contact details.
+8.2 Placement Assessment (/admissions/placement-assessment/)
+45-minute online test per subject, auto-marked plus teacher review; 15-minute adviser call; parent receives a one-page baseline report with recommended course and batch.
+8.3 Fees & Study Plans (/admissions/fees/)
+Meta title: Online O Level & A Level Tuition Fees | GOALPAc
+Meta description: Transparent fees for GOALPAc online O Level, IGCSE and A Level classes. Monthly, termly and annual plans with sibling and multi-subject discounts.
+H1: Fees & Study Plans
+Plan
+Includes
+Fee per subject (USD)
+Best for
+Monthly Plan
+Live classes, recordings, quizzes, monthly report
+[Set price] / month
+Trying GOALPAc, short-term needs
+Term Plan (4 months)
+Monthly Plan + one timed mock
+[Set price] / term (about 10% saving)
+Most students
+Annual Plan (12 months)
+Term Plan + two full mocks + priority batch choice
+[Set price] / year (about 20% saving)
+Committed full-course students
+Crash Course
+6–8 week bootcamp + two mocks
+[Set price] / course
+Final exam preparation
+1:1 Tutoring
+Packages of 8, 16 or 24 hours
+[Set price] / hour
+Personal attention
+Discounts: 3+ subjects 10%; siblings 10% for each additional child; early-bird enrolment 5%.
+Payment methods: international cards, PayPal / Stripe, bank transfer and approved local options.
+Not included: exam board registration and exam-centre fees, paid directly to the exam centre.
+8.4 Scholarships (/admissions/scholarships/)
+Merit Scholarship (25–50% for outstanding previous results or placement scores); Opportunity Scholarship (need-based, limited places per intake); sibling discount; deadlines per intake; renewal conditions (attendance and progress).
+8.5 Academic Calendar & Intakes (/admissions/calendar/)
+Intake
+Starts
+Suited for
+Main intake
+August / September
+Full two-year and one-year courses for May/June exams
+January intake
+January
+Fast track, retakes and Oct/Nov candidates
+Spring bootcamps
+February–April
+Crash courses for the May/June series
+Summer bootcamps
+July–September
+Crash courses for the Oct/Nov and January series
+8.6 Apply Now (/admissions/apply/)
+Form sections: student details, parent / guardian details, country and time zone, board, level and subjects, target exam series, previous results (optional), preferred plan, scholarship interest, consent to Terms, Privacy and Safeguarding policies.
+9. Exam Centre pages
+9.1 Exam Series & Key Dates (/exams/exam-dates/)
+Meta title: O Level & A Level Exam Dates (Cambridge & Edexcel) | GOALPAc
+H1: O Level and A Level Exam Series and Key Dates
+Board and qualification
+Main exam series
+Typical results release
+Cambridge O Level, IGCSE, AS & A Level
+May/June and October/November (March series in India only)
+August (May/June); January (Oct/Nov)
+Pearson Edexcel International GCSE
+May/June; January and November for selected subjects
+August; March; January
+Pearson Edexcel International AS & A Level
+January, May/June, October
+March; August; January
+Indicative pattern only. Add exact timetable dates and registration deadlines each series from the boards’ official timetables, with an “as of” date and a link to the source.
+9.2 Private Candidate Guide (/exams/private-candidates/)
+Meta title: How to Sit O & A Levels as a Private Candidate | GOALPAc
+H1: Sitting O and A Levels as a Private Candidate
+Choose your board and series (match what you are studying).
+Find an exam centre that accepts private candidates.
+Register before the centre’s deadline and pay entry fees directly to the centre.
+Plan coursework and practicals (choose subjects or components suitable for private candidates).
+How GOALPAc helps: choosing subjects and series, registration checklist and reminders, practical-skills sessions for sciences, full timed mock exams. GOALPAc is not an exam centre and does not register candidates.
+9.3 Past Papers & Mark Schemes Guide (/exams/past-papers/)
+Where to find official past papers (link to board websites; do not host board papers without permission); the three-stage method (topic questions, timed papers, full mock); marking with mark schemes; reading examiner reports; downloadable past-paper tracker.
+9.4 Mock Exams (/exams/mock-exams/)
+Open to GOALPAc students and external candidates; online invigilation; marking within 7 days; feedback report with predicted grade and top three improvement areas.
+9.5 Results & Student Achievements (/exams/results/)
+After the first exam series: headline outcomes with the method stated, student spotlights with consent, university destinations. Until then, show the Grade Plan and teacher credentials instead of numbers.
+10. Faculty, Students and Parents pages
+10.1 Our Faculty (/about/faculty/)
+Meta title: Meet Our O & A Level Teachers | GOALPAc Faculty
+H1: Meet Our Faculty
+Faculty card: photo, name and title, subjects and boards, qualifications, years of O/A Level teaching, short quote, profile link (Person schema). Filter by subject, board and level.
+10.2 Student Support & Mentoring (/support/students/)
+Personal mentor (monthly 1:1); weekly doubt-clearing clinics; study-skills workshops (time management, note-making, memory, exam stress); wellbeing support route; technical help desk by WhatsApp and email.
+10.3 Parents’ Hub (/support/parents/)
+Meta title: Parents’ Guide to Online O & A Level Learning | GOALPAc
+H1: For Parents: Stay Informed, Stay Involved
+Content: parent portal; monthly progress report (attendance, scores, working grade, target, next steps); termly parent-teacher meetings; keeping your child safe online; parent FAQs.
+10.4 University & Career Guidance (/support/university-guidance/)
+Choosing A Level subjects for an intended degree; applying to universities in the UK, USA, Canada, Australia, Malaysia and elsewhere; personal statement workshops; predicted grades guidance; scholarship research tips.
+10.5 Testimonials (/support/testimonials/)
+Video and written testimonials with name, country, subject and consent; link to independent review platforms once live.
+11. Resources, Blog, FAQs and Contact
+11.1 Blog (/blog/)
+Meta title: O & A Level Study Tips, Exam Guides & News | GOALPAc Blog
+H1: The GOALPAc Blog: Study Smarter, Score Higher
+Categories: Exam Guides, Subject Strategies, Study Skills, Private Candidates, University & Careers, Parent Corner, GOALPAc News
+#
+Target keyword
+Article title
+1
+O level vs IGCSE
+O Level vs IGCSE: What’s the Difference and Which Should You Take?
+2
+Cambridge vs Edexcel A level
+Cambridge vs Edexcel A Levels: A Clear Comparison
+3
+how to get A* in A level
+How to Get an A* at A Level: A Teacher’s 10-Step Plan
+4
+O level private candidate registration
+How to Register as an O Level Private Candidate
+5
+A level past papers
+How to Use A Level Past Papers to Raise Your Grade
+6
+O level maths tips
+12 O Level Maths Mistakes That Cost Marks
+7
+A level physics tips
+Cracking Cambridge A Level Physics Paper 4
+8
+IGCSE chemistry revision
+IGCSE Chemistry Revision Plan: 8 Weeks to Exam Day
+9
+A level economics essay
+How to Write a Top-Band A Level Economics Essay
+10
+Edexcel IAL resits
+Edexcel IAL Resits: When to Resit a Unit
+11
+grade boundaries explained
+Grade Boundaries Explained
+12
+online classes vs tuition centre
+Online Classes vs Tuition Centres
+13
+A level subject choices for medicine
+Best A Level Subject Combinations for Medicine, Engineering and Business
+14
+O level study timetable
+How to Build an O Level Study Timetable You’ll Follow
+15
+exam stress tips
+Managing Exam Stress: Advice for Students and Parents
+16
+command words Cambridge
+Cambridge Command Words Explained
+17
+A level biology revision
+A Level Biology: Mastering Data-Response Questions
+18
+AS level vs A level
+AS Level vs Full A Level: Staged and Linear Routes
+19
+O level in [country]
+Taking O Levels in [Country]: Centres, Dates and Tips
+20
+how to choose an online tutor
+How to Choose an Online O or A Level Tutor
+Publishing rhythm: 2 posts per week for the first 3 months, then 1 per week; 1,200–2,000 words each with an FAQ block, 3–5 internal links and a faculty author bio.
+11.2 Other resource pages
+Free Study Guides (/resources/study-guides/): past-paper tracker, 8-week revision planner, command-words cheat sheet, formula sheets, parent’s guide (email-gated PDFs).
+Webinars & Events (/resources/webinars/): monthly free webinars with Event schema.
+Grade Boundaries Explained (/resources/grade-boundaries/): what boundaries are, why they change, where to find official boundaries.
+11.3 FAQs (/faqs/)
+What is GOALPAc? An online academy offering live classes for Cambridge and Pearson Edexcel O Level, IGCSE and AS & A Level exams.
+Is GOALPAc a school? No. We are a tuition and exam-preparation provider; students usually study with us alongside school, or as private candidates.
+Are you affiliated with Cambridge or Pearson? No. We are independent and teach their published syllabuses.
+How big are classes? A maximum of 12 students per group class.
+What if I miss a class? Watch the recording and bring questions to the weekly clinic.
+Can I switch batch? Yes, subject to seat availability, once per term at no charge.
+How do I pay? By card, PayPal / Stripe or bank transfer; local options in selected countries.
+Is there a refund policy? Yes; see our Refund Policy.
+Are exam fees included? No. Exam-entry fees are paid directly to the exam centre.
+Do you offer mock exams? Yes, two full mock exams before each series.
+11.4 Contact Us (/contact/)
+Meta title: Contact GOALPAc | Admissions & Student Support
+H1: Contact GOALPAc
+Contact blocks: admissions@goalpac.com, support@goalpac.com, partners@goalpac.com, WhatsApp [number], registered office [address]. Form: name, email, WhatsApp, country, I am a (student / parent / school / other), subject, message, consent.
+11.5 Teach With Us (/careers/) and Partners (/partners/)
+Careers: why teach with us, requirements (subject degree, 3+ years O/A Level teaching, stable internet), openings, process (CV, demo lesson, interview, background check). Partners: subject cover and top-up classes for schools, referral partnerships for education agents.
+12. Legal pages, footer and launch checklist
+12.1 Legal and policy pages
+Page
+URL
+Must cover
+Privacy Policy
+/privacy-policy/
+Data collected (students are often minors), purpose, parental consent, recordings, international transfers, retention, rights
+Terms of Use
+/terms/
+Account rules, acceptable use, IP in course materials, no recording or sharing of classes, liability, governing law
+Refund & Cancellation
+/refund-policy/
+Cooling-off window, pro-rata refunds, batch cancellation, scholarship terms
+Safeguarding & Child Protection
+/safeguarding/
+Designated Safeguarding Lead, staff code of conduct, online-class rules, reporting concerns, vetting
+Cookie Policy
+/cookie-policy/
+Cookie categories, consent banner, opt-out
+Accessibility Statement
+/accessibility/
+WCAG 2.1 AA target, captions, contact for adjustments
+Academic Integrity
+/academic-integrity/
+Plagiarism, AI-tool use in homework, mock-exam conduct
+Have each reviewed by a lawyer for the country of registration before launch.
+12.2 Footer copy
+Description: GOALPAc: Global O and A Level Preparation Academy. Live online classes for Cambridge and Pearson Edexcel O Level, IGCSE and AS & A Level students worldwide.
+Newsletter: “Get free study tips and exam-date reminders.”
+Disclaimer: GOALPAc is an independent education provider and is not affiliated with, or endorsed by, Cambridge University Press & Assessment or Pearson Edexcel. All trademarks belong to their respective owners.
+Copyright: © 2026 Global O and A Level Preparation Academy (GOALPAc). All rights reserved.
+12.3 Global UX elements
+Floating WhatsApp button; sticky mobile bar (Free Trial / Apply); exit-intent offer of a free placement assessment on programme pages; cookie consent banner; time-zone auto-detect on schedule pages.
+12.4 Launch checklist
+☐ Register goalpac.com (plus .academy / .org) and social handles
+☐ Check trademark availability for “GOALPAc” in key markets
+☐ Confirm launch subjects, teachers and batches; finalise fees per region
+☐ Verify every syllabus code and exam date against official board websites
+☐ Write faculty profiles with photos and consent
+☐ Set up LMS, video classroom, payment gateway and CRM / WhatsApp Business
+☐ Lawyer review of all legal and safeguarding pages
+☐ Implement schema, sitemap, Search Console, GA4 conversion events
+☐ Publish first 8 blog posts before launch; queue the remaining 12
+☐ Test forms, emails, payment flow and mobile speed
+☐ Launch the free-trial campaign for the first intake # 
+13. Website health plan
+A healthy education site earns trust from both parents and search engines by showing real expertise, staying current every exam series and linking its content into clear topic hubs.
+13.1 E-E-A-T signals
+Signal
+What to publish
+Where it appears
+Experience
+Teacher bylines with years teaching O/A Level, classroom anecdotes, worked examples
+Blog posts, subject pages
+Expertise
+Faculty profiles with qualifications; “Reviewed by [Teacher]” stamp on academic articles
+Faculty, blog, study guides
+Authoritativeness
+Links to official syllabuses and examiner reports; webinars with university admissions staff
+Subject pages, Exam Centre, Webinars
+Trust
+Company registration, address, named Safeguarding Lead, transparent fees, refund policy, verified reviews
+Footer, About, Contact, Fees
+13.2 Content hubs (hub and spoke)
+Each hub links down to every spoke; every spoke links back to its hub and across to two siblings.
+Hub (pillar page)
+Spokes
+Cambridge O Level / IGCSE
+14 subject pages, O Level vs IGCSE article, command words guide, exam dates, revision planners
+Edexcel International GCSE
+Subject pages, January vs June guide, Maths A vs Further Pure guide
+A Level (both boards)
+Subject pages, A* strategy article, AS vs A Level routes, IAL resit planner, subject finder
+Exam Centre
+Private candidate guide, country exam-centre guides, past papers, grade boundaries, mocks
+Parents’ Hub
+Parent’s guide, online-learning article, exam stress article, fees and scholarships
+University Guidance
+Subject choices for careers, personal statements, country application guides
+13.3 Freshness routine
+☐ Every exam series: update exam dates, grade-boundary links, crash-course intakes and “last updated” dates.
+☐ Every syllabus change: update the subject page within 30 days and publish a “What changed” post.
+☐ Monthly: refresh 4 older posts; publish 4–8 new posts.
+☐ Quarterly: content audit: merge thin pages, fix broken links, prune outdated news.
+☐ Results season: results stories, “What to do if you missed your grade” and resit guides.
+13.4 Health KPIs (monthly)
+KPI
+Launch target (first 6 months)
+Tool
+Indexed pages
+All public pages indexed
+Google Search Console
+Core Web Vitals (mobile)
+90%+ URLs “Good”
+Search Console, PageSpeed Insights
+Organic clicks
+Month-on-month growth
+Search Console
+Free-trial conversion
+3–5% of programme-page visitors
+GA4
+Engagement time
+Over 1 minute on blog posts
+GA4
+Broken links / 404s
+Zero on key pages
+Site crawler
+Reviews
+Steady growth of verified reviews
+Google Business Profile, Trustpilot
+13.5 Accessibility
+Captions and transcripts on all videos; alt text on every image; colour contrast at least 4.5:1; keyboard-navigable menus; plain-English summaries at the top of long guides.
+14. Interactive tools
+Six free tools give students a reason to return, earn backlinks and capture leads. Add “Free Tools” under the Resources menu at /tools/.
+Tool
+URL
+What it does
+Lead capture
+Primary keyword
+Exam Countdown
+/tools/exam-countdown/
+Live countdown to each paper by board, series and subject
+Email reminders 30, 14, 7 and 1 days before
+O level exam countdown
+Revision Timetable Generator
+/tools/revision-timetable/
+Subjects, dates and hours in; printable plan out
+Email to download PDF
+A level revision timetable maker
+Grade Target Calculator
+/tools/grade-calculator/
+Mock marks in; marks needed for target grade out (indicative)
+Email for full report
+A level grade calculator
+Subject Combination Finder
+/tools/subject-finder/
+Intended degree in; suggested A Level combinations out
+Book advice call
+A level subjects for medicine
+Quiz of the Week
+/tools/weekly-quiz/
+10 exam-style MCQs per subject each Monday, leaderboard
+Account sign-up
+O level physics MCQ practice
+Which Board Am I On?
+/tools/board-checker/
+5 questions to identify board and syllabus page
+Free trial CTA
+IGCSE or O level which is better
+Revision Timetable Generator page: Meta title “Free O & A Level Revision Timetable Generator | GOALPAc”. H1 “Free Revision Timetable Generator”. Intro: “Stop guessing what to revise next. Tell us your subjects, exam dates and how much time you have, and we will build a balanced week-by-week plan that covers every topic and leaves time for past papers.” Logic: weaker subjects get more sessions; final two weeks shift to timed papers; one rest day per week. Below the tool: 600 words on sticking to a revision timetable, plus FAQs.
+Grade Target Calculator page: H1 “What Marks Do I Need? Grade Target Calculator”. Visible disclaimer: results use previous thresholds and are a guide only; thresholds change every series and are set by the exam board.
+Engagement features: shareable progress badges; weekly “Ask a Teacher” live Q&A; Topic of the Day on email or WhatsApp; a moderated community for enrolled students.
+15. Full sample subject page: Cambridge O Level Mathematics (4024)
+Use this page as the model; every other subject page copies its structure and depth (about 1,000 words).
+Meta field
+Content
+URL
+/subjects/cambridge-o-level-mathematics/
+Meta title
+Cambridge O Level Maths 4024 Online Classes | GOALPAc
+Meta description
+Live online Cambridge O Level Mathematics (4024) classes. Full syllabus, non-calculator skills, past papers and mocks with expert teachers. Free trial.
+Focus keyword
+O level maths online classes
+Schema
+Course + FAQPage + BreadcrumbList
+H1: Cambridge O Level Mathematics, taught live online.
+Intro: O Level Mathematics is the subject universities and employers check first, and it underpins Physics, Chemistry, Economics and Accounting. Many students know the methods but lose marks to careless working, weak algebra and running out of time. Our live online classes teach every topic in the 4024 syllabus from the ground up, then train you to apply it under exam conditions, with and without a calculator.
+At a glance: 3 × 75-minute live classes a week; 12 students at most; weekly quiz and monthly timed paper; 2 full mocks; every class recorded within 24 hours.
+What you will learn
+Strand
+Key topics
+Number
+Types of number, fractions, decimals, percentages, ratio and proportion, standard form, bounds, money and finance
+Algebra and graphs
+Expressions, equations and inequalities, formulae, sequences, functions, linear and quadratic graphs, gradients
+Coordinate geometry
+Straight lines, gradient, midpoint, length of a line segment
+Geometry
+Angles, polygons, similarity and congruence, circle theorems, constructions
+Mensuration
+Perimeter, area, surface area and volume, arcs and sectors
+Trigonometry
+Right-angled triangles, sine and cosine rules, bearings
+Transformations and vectors
+Reflections, rotations, enlargements, translations, vectors
+Probability and statistics
+Probability, tree diagrams, averages, charts, cumulative frequency
+How the exam works
+Paper
+Calculator
+Duration
+Weighting
+Paper 1
+Not allowed
+2 hours
+50%
+Paper 2
+Allowed
+2 hours
+50%
+Confirm assessment details against the current Cambridge syllabus year before publishing.
+How every Maths lesson runs
+Concept first: a short explanation with visual models, so the method makes sense.
+Worked example: the teacher solves an exam-style question live, with full working.
+Your turn: you solve a similar question on the whiteboard while the teacher checks.
+Exam question: a past-paper-style question marked for method and accuracy marks.
+Fix the gap: common errors reviewed at the start of the next class.
+Non-calculator confidence: a weekly 15-minute mental maths sprint builds the speed Paper 1 demands.
+The five mistakes our teachers fix most often
+Dropping negative signs when expanding brackets.
+Rounding too early in multi-step questions.
+Missing units or the required degree of accuracy.
+Skipping working, and losing method marks with it.
+Spending too long on one question and rushing the end.
+Course options
+Option
+Length
+Classes per week
+Ideal for
+Full Course
+2 years
+3
+Students starting O Level
+Fast Track
+1 year
+4
+Late starters, strong students
+Retake / Crash
+8–16 weeks
+4–5
+Improving a previous grade
+1:1 Tutoring
+Flexible
+Flexible
+Targeted gaps or A* stretch
+Subject FAQs
+Is O Level Maths the same as IGCSE Maths? The content is similar, but they are different qualifications. Cambridge IGCSE Mathematics is 0580, taught in separate batches.
+Should I take Additional Mathematics too? Add Maths (4037) is strongly recommended if you plan to take A Level Maths, Physics or Economics.
+Can I join mid-year? Yes. Your placement test shows which topics to catch up on through recordings and the weekly clinic.
+What calculator should I use? A scientific calculator permitted under board rules; your teacher confirms the model in week one.
+Will I practise past papers? Yes: topic questions from week one, timed papers monthly and two full mocks.
+CTA: “Ready to master O Level Maths?” Book a free trial | See class times.
+16. Two pillar blog articles, ready to publish
+16.1 O Level vs IGCSE: What’s the Difference and Which Should You Take?
+Meta field
+Content
+URL
+/blog/o-level-vs-igcse/
+Meta title
+O Level vs IGCSE: Key Differences Explained (2026 Guide) | GOALPAc
+Meta description
+O Level or IGCSE? Compare syllabuses, grading, exam papers, recognition and flexibility to choose the right qualification for your goals.
+Focus keyword
+O level vs IGCSE
+Quick answer: O Level and IGCSE are both internationally recognised qualifications taken around age 16, and both lead to A Levels. Cambridge O Level is available in selected countries and typically assesses all students at one level, while IGCSE (offered by Cambridge and, as International GCSE, by Pearson Edexcel) is available worldwide and often offers Core and Extended tiers. Universities treat good grades in either as equivalent.
+Every year, thousands of families face the same question at the end of Grade 8: should my child take O Levels or IGCSEs? The names sound alike, the subjects overlap and both lead to A Levels. Yet the differences in exam structure, flexibility and availability can matter a great deal for an individual student.
+What is Cambridge O Level? An international qualification for 14–16-year-olds, available in a group of countries where it has a long history, especially in South Asia and parts of Africa. Most subjects are assessed at a single level, so every candidate sits the same papers.
+What is IGCSE? Cambridge offers Cambridge IGCSE, and Pearson Edexcel offers its own International GCSE. IGCSE is available worldwide and is the most widely taken international qualification at this stage. Many subjects offer two tiers: Core and Extended.
+Feature
+Cambridge O Level
+IGCSE / International GCSE
+Availability
+Selected countries
+Worldwide
+Tiers
+Usually single level
+Often Core / Extended (Cambridge) or Foundation / Higher (Edexcel, some subjects)
+Grading
+Letter grades A*–E
+A*–G or 9–1, depending on syllabus and board
+Subject range
+Broad core subjects
+Very wide range, including more options and languages
+Coursework
+Mostly exam-based
+Mostly exam-based; some subjects offer coursework options
+Progression
+A Levels, foundation programmes, diplomas
+Same
+Do universities prefer one over the other? No. Strong grades in either are treated as equivalent evidence of secondary achievement. Your grades, subject choices and later A Level results matter far more.
+Five questions to ask: Which does my school or exam centre offer? Am I a private candidate? Do I want tiered papers? Which subjects do I need? When do I want to sit?
+Can you switch? Yes, most easily at the start of the course; the content overlaps heavily, so a good teacher can map the gaps in a few weeks.
+How GOALPAc helps: we teach Cambridge O Level, Cambridge IGCSE and Pearson Edexcel International GCSE in separate batches mapped to each syllabus. Try the “Which Board Am I On?” checker or book a free placement call.
+16.2 How to Get an A* at A Level: A Teacher’s 10-Step Plan
+Meta field
+Content
+URL
+/blog/how-to-get-a-star-a-level/
+Meta title
+How to Get an A* at A Level: 10 Steps from a Teacher | GOALPAc
+Meta description
+Want an A* at A Level? Follow this teacher-tested 10-step plan covering syllabus mapping, active recall, past papers, mark schemes and exam technique.
+An A* is rarely about natural talent. The students who reach the top grade share a set of habits anyone can learn.
+Turn the syllabus into a checklist. Rate every point red, amber or green and revisit monthly.
+Learn the command words. “Describe”, “explain”, “evaluate” and “discuss” each demand a different answer.
+Make notes you can test yourself on. Flashcards, question-and-answer columns, mind maps with blanks.
+Use active recall daily. Close the book and write what you remember.
+Space your revision. Revisit topics after a day, a week and a month.
+Start past-paper questions early. Topic by topic from the first month.
+Mark with the mark scheme, then read the examiner report.
+Build a mistakes log. Record every lost mark, its cause and the fix; review weekly.
+Practise under real timing. From three months out, sit full timed papers.
+Get expert feedback on extended answers, against mark-scheme levels, not just a score.
+Day
+Focus (per subject, about 60–90 min)
+Mon–Thu
+Topic review, active recall, 5 past-paper questions
+Fri
+Mistakes-log review and flashcards
+Sat
+One timed paper section, self-marked
+Sun
+Rest, light review of weak topics
+Common myths: “Only geniuses get A*” (consistent technique beats talent); “Past papers are for the end” (they teach exam thinking from day one); “More hours always mean better grades” (focused active sessions beat long passive ones).
+17. Free resource content
+17.1 Command Words Cheat Sheet (/resources/command-words/)
+Command word
+What it asks
+Answer starter
+Common mistake
+State / Identify
+A short, direct answer
+“The … is …”
+Writing an explanation that wastes time
+Define
+The precise meaning of a term
+“X is the … that …”
+Giving an example instead
+Describe
+What something is like or what happens
+“First … then … this shows …”
+Explaining why when only what is asked
+Explain
+Reasons or causes; how and why
+“This happens because … which leads to …”
+Listing points without linking cause and effect
+Calculate
+A numerical answer with working
+Formula, substitution, answer + unit
+Missing units or working
+Compare
+Similarities and differences
+“Whereas A …, B …”
+Describing each item separately
+Analyse
+Examine parts and links
+“This leads to … therefore …”
+Stopping at description
+Suggest
+Apply knowledge to an unfamiliar context
+“One possible reason is …”
+Repeating facts that don’t fit
+Assess
+Weigh up importance of factors
+“The most significant factor is … because …”
+No judgement given
+Evaluate
+Judge strengths and weaknesses; conclude
+“On balance … because … however …”
+One-sided argument
+Discuss
+Arguments for and against, then conclude
+“On one hand … on the other … overall …”
+Ignoring counter-arguments
+Justify
+Support a choice with evidence
+“This is correct because the data shows …”
+Opinion without evidence
+17.2 8-Week Exam Revision Planner (/resources/8-week-revision-plan/)
+Week
+Focus
+Daily tasks
+Milestone
+8
+Audit
+Red/amber/green the syllabus; gather notes and papers
+Topic checklist complete
+7
+Red topics (1)
+Re-learn weakest topics; 10 recall questions each
+Half of red topics amber
+6
+Red topics (2)
+Continue; first topic-based past-paper questions
+All red topics attempted
+5
+Amber topics
+Practice by topic; start mistakes log
+20+ log entries
+4
+First full papers
+One timed paper per subject; mark it
+Baseline scores recorded
+3
+Fix and repeat
+Re-attempt log questions; second timed papers
+Improvement on repeated topics
+2
+Mock week
+Full papers in real timetable order
+Mock grades and final weak list
+1
+Polish and rest
+Short recall, formula review, sleep
+Calm, rested, equipment ready
+Tips: 45–50 minute blocks with 10-minute breaks; mix subjects within a day; one rest evening per week; stop new learning the night before an exam.
+17.3 O & A Level Glossary (/resources/glossary/)
+Term
+Plain-English meaning
+Syllabus / Specification
+The official document listing everything that can be examined
+Syllabus code
+The number identifying a syllabus, e.g. 4024 for Cambridge O Level Mathematics
+Component / Paper
+One exam paper within a subject
+Exam series
+The period when exams are held, e.g. May/June
+Grade threshold
+The minimum raw mark for each grade in a series
+Raw mark
+Marks scored before grading
+Mark scheme
+The examiners’ guide to awarding marks
+Examiner report
+A post-series report on performance and common errors
+Core / Extended tier
+IGCSE paper levels; Extended gives access to top grades
+Foundation / Higher tier
+Edexcel International GCSE paper levels in some subjects
+AS Level
+The first half of a full A Level, also a qualification in its own right
+Staged assessment
+AS papers first, remaining A Level papers later
+Linear assessment
+All A Level papers in the same series
+IAL
+Pearson Edexcel International Advanced Level, a unit-based A Level
+Resit
+Retaking a paper or unit to improve the result
+Private candidate
+A student entering exams through a centre without being enrolled there
+Statement of entry
+Document confirming papers, dates and candidate number
+Enquiry about results
+A formal request to review marking
+Predicted grade
+A teacher’s estimate of a final grade
