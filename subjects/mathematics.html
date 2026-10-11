@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Live online Cambridge and Pearson Edexcel Mathematics courses from O Level foundations through Further Mathematics at A Level. GOALPAc – Global O and A Level Preparation Academy." />
+  <title>Mathematics Online Classes (Maths, Add Maths, Further Maths) | GOALPAc</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- GOALPAc Main Stylesheet -->
+  <link rel="stylesheet" href="../assets/css/main.css" />
+
+  <style>
+    :root {
+      --navy:   #06264F;
+      --gold:   #CFA43C;
+      --parchment: #F8F4ED;
+      --text:   #1a1a2e;
+    }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: #ffffff; }
+
+    .goalpac-navbar { background: var(--navy); padding: 0.75rem 0; }
+    .goalpac-navbar .navbar-brand img { height: 48px; }
+    .goalpac-navbar .nav-link { color: rgba(255,255,255,0.85) !important; font-weight: 500; font-size: 0.9rem; padding: 0.5rem 0.9rem !important; transition: color 0.2s; }
+    .goalpac-navbar .nav-link:hover, .goalpac-navbar .nav-link.active { color: var(--gold) !important; }
+    .btn-gold-nav { background: var(--gold); color: var(--navy) !important; font-weight: 700; border-radius: 6px; padding: 0.45rem 1.1rem !important; }
+    .btn-gold-nav:hover { background: #b8902e; }
+
+    .subject-hero { background: linear-gradient(135deg, var(--navy) 0%, #0a3a6e 100%); padding: 4rem 0 3.5rem; color: #fff; }
+    .eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.18em; color: var(--gold); text-transform: uppercase; margin-bottom: 0.6rem; display: block; }
+    .subject-hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; line-height: 1.2; margin-bottom: 1rem; }
+    .subject-hero .lead { font-size: 1.1rem; color: rgba(255,255,255,0.88); max-width: 680px; }
+
+    .breadcrumb-wrap { background: #f0ede8; border-bottom: 1px solid #e0dbd3; padding: 0.65rem 0; font-size: 0.85rem; }
+    .breadcrumb-item a { color: var(--navy); text-decoration: none; font-weight: 500; }
+    .breadcrumb-item a:hover { text-decoration: underline; }
+    .breadcrumb-item.active { color: #555; }
+    .breadcrumb-item + .breadcrumb-item::before { color: #888; }
+
+    .section-subjects { padding: 4rem 0 3rem; }
+    .subject-card { background: var(--parchment); border: 1px solid #e3ddd4; border-radius: 14px; padding: 2rem 1.75rem; height: 100%; transition: box-shadow 0.25s, transform 0.25s; }
+    .subject-card:hover { box-shadow: 0 8px 32px rgba(6,38,79,0.13); transform: translateY(-4px); }
+    .subject-card .subject-icon { width: 52px; height: 52px; background: var(--navy); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.1rem; font-size: 1.5rem; color: var(--gold); }
+    .subject-card h3 { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 700; color: var(--navy); margin-bottom: 0.9rem; }
+    .syllabus-list { list-style: none; padding: 0; margin: 0 0 1rem; }
+    .syllabus-list li { font-size: 0.82rem; color: #444; padding: 0.22rem 0; border-bottom: 1px dashed #d4ccc0; display: flex; align-items: center; gap: 0.4rem; }
+    .syllabus-list li:last-child { border-bottom: none; }
+    .syllabus-list li::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+    .subject-card p.desc { font-size: 0.9rem; color: #555; margin-top: 0.75rem; margin-bottom: 0; line-height: 1.65; }
+
+    .verify-note { background: #fff8e8; border-left: 4px solid var(--gold); border-radius: 0 8px 8px 0; padding: 0.85rem 1.2rem; font-size: 0.82rem; color: #5a4a1a; margin: 2rem 0; }
+
+    .section-cta { background: var(--navy); padding: 3.5rem 0; text-align: center; color: #fff; }
+    .section-cta h2 { font-family: 'Playfair Display', serif; font-size: 1.9rem; margin-bottom: 0.5rem; }
+    .section-cta p { color: rgba(255,255,255,0.8); margin-bottom: 1.5rem; }
+    .btn-gold { background: var(--gold); color: var(--navy); font-weight: 700; border: none; border-radius: 8px; padding: 0.72rem 1.8rem; font-size: 0.95rem; transition: background 0.2s, transform 0.15s; text-decoration: none; display: inline-block; }
+    .btn-gold:hover { background: #b8902e; color: var(--navy); transform: translateY(-1px); }
+    .btn-outline-navy { background: transparent; color: #fff; font-weight: 700; border: 2px solid rgba(255,255,255,0.7); border-radius: 8px; padding: 0.72rem 1.8rem; font-size: 0.95rem; transition: border-color 0.2s, background 0.2s; text-decoration: none; display: inline-block; }
+    .btn-outline-navy:hover { border-color: #fff; background: rgba(255,255,255,0.08); color: #fff; }
+
+    .goalpac-footer { background: #020f1f; color: rgba(255,255,255,0.75); padding: 2rem 0 0; font-size: 0.85rem; }
+    .footer-independence-banner { border-top: 3px solid var(--gold); padding: 1.25rem 1rem; background: rgba(255,255,255,0.04); border-radius: 6px; margin-bottom: 1rem; line-height: 1.6; }
+    .footer-bottom-bar { border-top: 1px solid rgba(255,255,255,0.1); padding: 1rem; color: rgba(255,255,255,0.5); font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════
+       NAVIGATION
+  ══════════════════════════════ -->
+  <nav class="navbar navbar-expand-lg goalpac-navbar sticky-top">
+    <div class="container-xl">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../assets/images/logo.png" alt="GOALPAc – Global O and A Level Preparation Academy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+        <span style="display:none;font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:#fff;">GOAL<span style="color:#CFA43C;">PAc</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Subjects</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sciences.html">Sciences</a></li>
+              <li><a class="dropdown-item" href="mathematics.html">Mathematics</a></li>
+              <li><a class="dropdown-item" href="business-humanities.html">Business &amp; Humanities</a></li>
+              <li><a class="dropdown-item" href="computing-ict.html">Computing &amp; ICT</a></li>
+              <li><a class="dropdown-item" href="english-languages.html">English &amp; Languages</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#how-it-works">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="../index.html#faq">FAQ</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="nav-link btn-gold-nav" href="../index.html#trial-section">Book Free Trial</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════
+       BREADCRUMB
+  ══════════════════════════════ -->
+  <div class="breadcrumb-wrap">
+    <div class="container-xl">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="../index.html#subjects">Subjects</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Mathematics</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════
+       HERO
+  ══════════════════════════════ -->
+  <section class="subject-hero">
+    <div class="container-xl">
+      <span class="eyebrow">MATHEMATICS SUBJECTS</span>
+      <h1>Mathematics: Core, Additional &amp; Further Pure</h1>
+      <p class="lead">
+        Live online Cambridge and Pearson Edexcel Mathematics courses from O Level foundations
+        through Further Mathematics at A Level — building rigour, confidence and exam technique at every stage.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       SUBJECT CARDS
+  ══════════════════════════════ -->
+  <section class="section-subjects">
+    <div class="container-xl">
+
+      <div class="row g-4">
+
+        <!-- Core Mathematics -->
+        <div class="col-lg-4 col-md-6">
+          <div class="subject-card">
+            <div class="subject-icon">
+              <i class="bi bi-calculator-fill"></i>
+            </div>
+            <h3>Mathematics</h3>
+            <ul class="syllabus-list">
+              <li>Cambridge O Level &mdash; 4024</li>
+              <li>Cambridge IGCSE &mdash; 0580</li>
+              <li>Edexcel Int. GCSE &mdash; 4MA1</li>
+              <li>Cambridge A Level &mdash; 9709</li>
+              <li>Edexcel IAL &mdash; YMA01</li>
+            </ul>
+            <p class="desc">
+              From number and algebra at O Level through pure mathematics, statistics and mechanics at A Level.
+              We teach structured approaches to multi-step problems and build the algebraic fluency needed for top-band marks.
+            </p>
+          </div>
+        </div>
+
+        <!-- Additional / Further Pure -->
+        <div class="col-lg-4 col-md-6">
+          <div class="subject-card">
+            <div class="subject-icon">
+              <i class="bi bi-infinity"></i>
+            </div>
+            <h3>Additional &amp; Further Pure Mathematics</h3>
+            <ul class="syllabus-list">
+              <li>Cambridge O Level Add Maths &mdash; 4037</li>
+              <li>Cambridge IGCSE Add Maths &mdash; 0606</li>
+              <li>Edexcel Int. GCSE Further Pure &mdash; 4PM1</li>
+              <li>Cambridge A Level (Further Pure component of 9709)</li>
+            </ul>
+            <p class="desc">
+              Additional Mathematics bridges O Level and A Level, introducing calculus, trigonometry identities
+              and coordinate geometry. Our structured approach ensures students gain the depth required for Further Pure units.
+            </p>
+          </div>
+        </div>
+
+        <!-- Further Mathematics -->
+        <div class="col-lg-4 col-md-6">
+          <div class="subject-card">
+            <div class="subject-icon">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <h3>Further Mathematics</h3>
+            <ul class="syllabus-list">
+              <li>Cambridge A Level &mdash; 9231</li>
+              <li>Edexcel IAL &mdash; YFM01</li>
+            </ul>
+            <p class="desc">
+              Advanced topics including further calculus, complex numbers, matrices, differential equations,
+              vectors and numerical methods. Ideal for students targeting top universities with strong
+              mathematical requirements.
+            </p>
+          </div>
+        </div>
+
+      </div><!-- /.row -->
+
+      <!-- Verify note -->
+      <div class="verify-note">
+        <i class="bi bi-info-circle me-1"></i>
+        <strong>Syllabus Note:</strong> Verify each syllabus code annually on the official board websites
+        (cambridge.org/international and qualifications.pearson.com) before enrolment, as codes and specifications are subject to change.
+      </div>
+
+    </div><!-- /.container-xl -->
+  </section>
+
+  <!-- ══════════════════════════════
+       CTA BANNER
+  ══════════════════════════════ -->
+  <section class="section-cta">
+    <div class="container-xl">
+      <h2>Ready to Master Mathematics?</h2>
+      <p>Our expert Mathematics teachers have helped students achieve A* grades at Cambridge and Edexcel examinations worldwide.</p>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <a href="../index.html#subjects" class="btn-outline-navy">Browse All Subjects</a>
+        <a href="../index.html#trial-section" class="btn-gold">Book Free Trial &nbsp;<i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       FOOTER
+  ══════════════════════════════ -->
+  <footer class="goalpac-footer">
+    <div class="container-xl">
+      <div class="footer-independence-banner">
+        <strong class="text-white">Independence Statement:</strong> GOALPAc is an independent education provider and is not affiliated with, or endorsed by, Cambridge University Press &amp; Assessment or Pearson Edexcel. All trademarks belong to their respective owners.
+      </div>
+      <div class="footer-bottom-bar text-center">
+        &copy; 2026 Global O and A Level Preparation Academy (GOALPAc). All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
