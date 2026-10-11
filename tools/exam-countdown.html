@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Level Exam Countdown Timer | GOALPAc</title>
+  <meta name="description" content="Live countdown to Cambridge and Edexcel O Level, IGCSE and A Level exam series. Get email reminders 30, 14, 7 and 1 day before your paper." />
+  <link rel="canonical" href="https://www.goalpac.com/tools/exam-countdown/" />
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- GOALPAc Main CSS -->
+  <link rel="stylesheet" href="../assets/css/main.css" />
+
+  <style>
+    :root {
+      --navy: #06264F;
+      --gold:  #CFA43C;
+      --parchment: #FDF6E3;
+    }
+    body { font-family: 'Segoe UI', sans-serif; color: #1a1a1a; }
+
+    /* ── Nav ── */
+    .goalpac-navbar { background: var(--navy); }
+    .goalpac-navbar .navbar-brand img { height: 52px; }
+    .goalpac-navbar .nav-link { color: rgba(255,255,255,.85) !important; font-size: .9rem; }
+    .goalpac-navbar .nav-link:hover { color: var(--gold) !important; }
+    .goalpac-navbar .btn-gold { background: var(--gold); color: #fff; font-weight: 600; border: none; border-radius: 4px; padding: .45rem 1.1rem; font-size: .85rem; }
+    .goalpac-navbar .btn-gold:hover { background: #b88e2a; }
+
+    /* ── Hero ── */
+    .page-hero { background: var(--navy); color: #fff; padding: 3.5rem 0 2.5rem; }
+    .page-hero .eyebrow { font-size: .78rem; font-weight: 700; letter-spacing: 2px; color: var(--gold); text-transform: uppercase; margin-bottom: .5rem; }
+    .page-hero h1 { font-size: 2.4rem; font-weight: 800; margin-bottom: .8rem; }
+    .page-hero .lead { font-size: 1.05rem; color: rgba(255,255,255,.85); max-width: 680px; }
+
+    /* ── Breadcrumb ── */
+    .breadcrumb-bar { background: #f0f4f8; padding: .55rem 0; font-size: .82rem; }
+    .breadcrumb-bar a { color: var(--navy); text-decoration: none; }
+    .breadcrumb-bar a:hover { color: var(--gold); }
+    .breadcrumb-bar .sep { margin: 0 .4rem; color: #999; }
+
+    /* ── Parchment note ── */
+    .note-parchment { background: var(--parchment); border-left: 4px solid var(--gold); border-radius: 6px; padding: 1rem 1.25rem; font-size: .88rem; color: #5a4a28; }
+
+    /* ── Countdown Cards ── */
+    .series-card { background: var(--navy); color: #fff; border-radius: 10px; padding: 1.6rem 1.4rem; height: 100%; }
+    .series-card .series-name { font-size: 1.1rem; font-weight: 700; color: var(--gold); margin-bottom: .5rem; }
+    .series-card .series-detail { font-size: .88rem; color: rgba(255,255,255,.8); }
+
+    /* ── Live Timer ── */
+    .timer-section { background: #f8f9fa; padding: 3rem 0; }
+    .timer-section h2 { color: var(--navy); font-weight: 800; }
+    .timer-box { background: var(--navy); color: #fff; border-radius: 10px; padding: 1.5rem 1rem; text-align: center; min-width: 100px; }
+    .timer-box .timer-value { font-size: 2.8rem; font-weight: 800; color: var(--gold); line-height: 1; }
+    .timer-box .timer-label { font-size: .78rem; text-transform: uppercase; letter-spacing: 1.5px; margin-top: .4rem; color: rgba(255,255,255,.75); }
+    .timer-wrapper { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+    /* ── Lead Capture ── */
+    .lead-capture { background: var(--parchment); padding: 3.5rem 0; }
+    .lead-capture h2 { color: var(--navy); font-weight: 800; }
+    .btn-gold-solid { background: var(--gold); color: #fff; font-weight: 700; border: none; padding: .65rem 2rem; border-radius: 5px; font-size: 1rem; }
+    .btn-gold-solid:hover { background: #b88e2a; color: #fff; }
+    .btn-navy-outline { border: 2px solid var(--navy); color: var(--navy); background: transparent; font-weight: 600; padding: .6rem 1.6rem; border-radius: 5px; }
+    .btn-navy-outline:hover { background: var(--navy); color: #fff; }
+
+    /* ── CTA Strip ── */
+    .cta-strip { background: var(--navy); color: #fff; padding: 2.5rem 0; text-align: center; }
+    .cta-strip h2 { font-weight: 800; font-size: 1.5rem; }
+
+    /* ── Footer ── */
+    .goalpac-footer { background: #021830; color: rgba(255,255,255,.7); padding: 2rem 0 1rem; }
+    .footer-independence-banner { background: rgba(255,255,255,.07); border-radius: 6px; padding: 1rem 1.25rem; font-size: .82rem; margin-bottom: 1.2rem; }
+    .footer-bottom-bar { font-size: .8rem; color: rgba(255,255,255,.45); padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.1); }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+<nav class="navbar navbar-expand-xl goalpac-navbar py-2 sticky-top">
+  <div class="container-xl">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../assets/images/goalpac-logo-white-bg.jpg" alt="GOALPAc Logo" />
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon" style="filter:invert(1);"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-xl-center gap-xl-1 py-2 py-xl-0">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="../programmes.html">Programmes</a></li>
+        <li class="nav-item"><a class="nav-link" href="../subjects/index.html">Subjects</a></li>
+        <li class="nav-item"><a class="nav-link" href="../how-it-works.html">How It Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="../admissions.html">Admissions</a></li>
+        <li class="nav-item"><a class="nav-link" href="../exams.html">Exam Centre</a></li>
+        <li class="nav-item"><a class="nav-link" href="../support/parents.html">Parents' Hub</a></li>
+        <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+        <li class="nav-item ms-xl-3">
+          <a class="btn-gold" href="../index.html#trial-section">Book Free Trial</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ BREADCRUMB ═══════════════════════ -->
+<div class="breadcrumb-bar">
+  <div class="container-xl">
+    <a href="../index.html">Home</a><span class="sep">›</span>
+    <a href="../tools/">Tools</a><span class="sep">›</span>
+    <span style="color:#555;">Exam Countdown</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ HERO ═════════════════════════════ -->
+<section class="page-hero">
+  <div class="container-xl">
+    <div class="eyebrow"><i class="fa-solid fa-clock-rotate-left me-1"></i> FREE STUDENT TOOLS</div>
+    <h1>Exam Countdown</h1>
+    <p class="lead">Never miss a registration deadline or exam date. Select your board and series below to see a live countdown to major exam windows.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ MAIN CONTENT ════════════════════ -->
+<main class="py-5">
+  <div class="container-xl">
+
+    <!-- Disclaimer note -->
+    <div class="note-parchment mb-5">
+      <i class="fa-solid fa-triangle-exclamation me-2" style="color:var(--gold);"></i>
+      <strong>Please note:</strong> Dates shown are indicative annual patterns. Always verify exact timetable dates with your exam centre and the official board websites (<a href="https://www.cambridgeinternational.org" target="_blank" rel="noopener noreferrer">cambridgeinternational.org</a> and <a href="https://qualifications.pearson.com" target="_blank" rel="noopener noreferrer">qualifications.pearson.com</a>) before making any decisions.
+    </div>
+
+    <!-- Series Cards -->
+    <h2 class="fw-800 mb-4" style="color:var(--navy); font-weight:800;">Upcoming Exam Series</h2>
+    <div class="row g-4 mb-5">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="series-card">
+          <div class="series-name"><i class="fa-solid fa-graduation-cap me-2"></i>Cambridge May / June Series</div>
+          <div class="series-detail mb-3">The largest annual session for Cambridge O Level, IGCSE and A Level.</div>
+          <table class="table table-borderless table-sm text-white mb-0" style="font-size:.86rem;">
+            <tr><td style="color:var(--gold); font-weight:600;">Papers:</td><td>Approx. May – June (annually)</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Results:</td><td>August</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Boards:</td><td>Cambridge International (CAIE)</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Qualifications:</td><td>O Level, IGCSE, AS &amp; A Level</td></tr>
+          </table>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="series-card">
+          <div class="series-name"><i class="fa-solid fa-graduation-cap me-2"></i>Cambridge Oct / Nov Series</div>
+          <div class="series-detail mb-3">The second main Cambridge session — ideal for re-sit candidates.</div>
+          <table class="table table-borderless table-sm text-white mb-0" style="font-size:.86rem;">
+            <tr><td style="color:var(--gold); font-weight:600;">Papers:</td><td>Approx. Oct – Nov (annually)</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Results:</td><td>January</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Boards:</td><td>Cambridge International (CAIE)</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Qualifications:</td><td>O Level, IGCSE, AS &amp; A Level</td></tr>
+          </table>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="series-card">
+          <div class="series-name"><i class="fa-solid fa-graduation-cap me-2"></i>Edexcel IAL January Series</div>
+          <div class="series-detail mb-3">Pearson Edexcel International Advanced Level — January sitting.</div>
+          <table class="table table-borderless table-sm text-white mb-0" style="font-size:.86rem;">
+            <tr><td style="color:var(--gold); font-weight:600;">Papers:</td><td>Approx. January (annually)</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Results:</td><td>March</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Boards:</td><td>Pearson Edexcel</td></tr>
+            <tr><td style="color:var(--gold); font-weight:600;">Qualifications:</td><td>IAL AS &amp; A Level</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- ═══════════════════════════ LIVE COUNTDOWN ══════════════════ -->
+<section class="timer-section">
+  <div class="container-xl text-center">
+    <h2 class="mb-1">Live Countdown — Next Major Series</h2>
+    <p class="text-muted mb-4" style="font-size:.9rem;">Counting down to the Cambridge May / June 2027 series (illustrative — confirm with your centre)</p>
+    <div class="timer-wrapper" id="countdown-wrapper">
+      <div class="timer-box"><div class="timer-value" id="cd-days">--</div><div class="timer-label">Days</div></div>
+      <div class="timer-box"><div class="timer-value" id="cd-hours">--</div><div class="timer-label">Hours</div></div>
+      <div class="timer-box"><div class="timer-value" id="cd-minutes">--</div><div class="timer-label">Minutes</div></div>
+      <div class="timer-box"><div class="timer-value" id="cd-seconds">--</div><div class="timer-label">Seconds</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ LEAD CAPTURE ════════════════════ -->
+<section class="lead-capture">
+  <div class="container-xl">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="text-center mb-2"><i class="fa-solid fa-bell me-2" style="color:var(--gold);"></i>Get Exam Reminders by Email</h2>
+        <p class="text-center text-muted mb-4">We will send you a reminder 30, 14, 7 and 1 day before your selected exam series begins — completely free.</p>
+
+        <form id="reminder-form" class="bg-white rounded-3 shadow-sm p-4" onsubmit="handleReminderSubmit(event)">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label fw-600" for="rf-name">Full Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="rf-name" placeholder="e.g. Aisha Rahman" required />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-600" for="rf-email">Email Address <span class="text-danger">*</span></label>
+              <input type="email" class="form-control" id="rf-email" placeholder="your@email.com" required />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-600" for="rf-board">Exam Board <span class="text-danger">*</span></label>
+              <select class="form-select" id="rf-board" required>
+                <option value="">— Select Board —</option>
+                <option>Cambridge International (CAIE)</option>
+                <option>Pearson Edexcel</option>
+                <option>Both / Unsure</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-600" for="rf-series">Exam Series <span class="text-danger">*</span></label>
+              <select class="form-select" id="rf-series" required>
+                <option value="">— Select Series —</option>
+                <option>Cambridge May / June 2027</option>
+                <option>Cambridge Oct / Nov 2026</option>
+                <option>Edexcel IAL January 2027</option>
+                <option>Edexcel IAL May / June 2027</option>
+              </select>
+            </div>
+            <div class="col-12 text-center mt-2">
+              <button type="submit" class="btn-gold-solid w-100"><i class="fa-solid fa-bell me-2"></i>Send Me Reminders</button>
+            </div>
+          </div>
+        </form>
+
+        <!-- Success message (hidden) -->
+        <div id="reminder-success" class="alert alert-success mt-3 text-center d-none" role="alert">
+          <i class="fa-solid fa-circle-check me-2"></i><strong>You're on the list!</strong> We will email your reminders at 30, 14, 7 and 1 day before the series. Check your inbox for a confirmation.
+        </div>
+
+        <p class="text-center text-muted mt-3" style="font-size:.8rem;"><i class="fa-solid fa-lock me-1"></i>We never share your email. Unsubscribe at any time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CTA STRIP ═══════════════════════ -->
+<section class="cta-strip">
+  <div class="container-xl">
+    <h2 class="mb-3">Ready to Take the Next Step?</h2>
+    <div class="d-flex flex-wrap gap-3 justify-content-center">
+      <a href="../exams/exam-dates.html" class="btn btn-outline-light px-4 py-2 fw-600">
+        <i class="fa-solid fa-calendar-days me-2"></i>View Exam Series &amp; Key Dates
+      </a>
+      <a href="../admissions/apply.html" class="btn px-4 py-2 fw-700" style="background:var(--gold); color:#fff; border:none;">
+        <i class="fa-solid fa-pen-to-square me-2"></i>Apply to GOALPAc
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ══════════════════════════ -->
+<footer class="goalpac-footer">
+  <div class="container-xl">
+    <div class="footer-independence-banner">
+      <strong class="text-white">Independence Statement:</strong> GOALPAc is an independent education provider and is not affiliated with, or endorsed by, Cambridge University Press &amp; Assessment or Pearson Edexcel. All trademarks belong to their respective owners.
+    </div>
+    <div class="footer-bottom-bar text-center">
+      &copy; 2026 Global O and A Level Preparation Academy (GOALPAc). All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // ── Live Countdown Timer ──
+  const targetDate = new Date('2027-05-01T08:00:00');
+
+  function updateCountdown() {
+    const now = new Date();
+    const diff = targetDate - now;
+    if (diff <= 0) {
+      document.getElementById('cd-days').textContent = '0';
+      document.getElementById('cd-hours').textContent = '0';
+      document.getElementById('cd-minutes').textContent = '0';
+      document.getElementById('cd-seconds').textContent = '0';
+      return;
+    }
+    const days    = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours   = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    document.getElementById('cd-days').textContent    = String(days).padStart(3, '0');
+    document.getElementById('cd-hours').textContent   = String(hours).padStart(2, '0');
+    document.getElementById('cd-minutes').textContent = String(minutes).padStart(2, '0');
+    document.getElementById('cd-seconds').textContent = String(seconds).padStart(2, '0');
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+
+  // ── Reminder Form Submit ──
+  function handleReminderSubmit(e) {
+    e.preventDefault();
+    document.getElementById('reminder-form').classList.add('d-none');
+    document.getElementById('reminder-success').classList.remove('d-none');
+  }
+</script>
+</body>
+</html>

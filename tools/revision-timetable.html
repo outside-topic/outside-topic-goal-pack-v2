@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free O &amp; A Level Revision Timetable Generator | GOALPAc</title>
+  <meta name="description" content="Stop guessing what to revise next. Enter your subjects, exam dates and study hours. We build a balanced week-by-week revision plan." />
+  <link rel="canonical" href="https://www.goalpac.com/tools/revision-timetable/" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+
+  <style>
+    :root { --navy:#06264F; --gold:#CFA43C; --parchment:#FDF6E3; }
+    body { font-family:'Segoe UI',sans-serif; color:#1a1a1a; }
+
+    .goalpac-navbar { background:var(--navy); }
+    .goalpac-navbar .navbar-brand img { height:52px; }
+    .goalpac-navbar .nav-link { color:rgba(255,255,255,.85)!important; font-size:.9rem; }
+    .goalpac-navbar .nav-link:hover { color:var(--gold)!important; }
+    .goalpac-navbar .btn-gold { background:var(--gold); color:#fff; font-weight:600; border:none; border-radius:4px; padding:.45rem 1.1rem; font-size:.85rem; }
+    .goalpac-navbar .btn-gold:hover { background:#b88e2a; }
+
+    .page-hero { background:var(--navy); color:#fff; padding:3.5rem 0 2.5rem; }
+    .page-hero .eyebrow { font-size:.78rem; font-weight:700; letter-spacing:2px; color:var(--gold); text-transform:uppercase; margin-bottom:.5rem; }
+    .page-hero h1 { font-size:2.3rem; font-weight:800; margin-bottom:.8rem; }
+    .page-hero .lead { font-size:1.05rem; color:rgba(255,255,255,.85); max-width:720px; }
+
+    .breadcrumb-bar { background:#f0f4f8; padding:.55rem 0; font-size:.82rem; }
+    .breadcrumb-bar a { color:var(--navy); text-decoration:none; }
+    .breadcrumb-bar a:hover { color:var(--gold); }
+    .breadcrumb-bar .sep { margin:0 .4rem; color:#999; }
+
+    .note-parchment { background:var(--parchment); border-left:4px solid var(--gold); border-radius:6px; padding:1rem 1.25rem; font-size:.88rem; color:#5a4a28; }
+
+    .form-section { background:#f8f9fa; border-radius:12px; padding:2.5rem; }
+    .form-label { font-weight:600; color:var(--navy); }
+
+    .btn-gold-solid { background:var(--gold); color:#fff; font-weight:700; border:none; padding:.7rem 2rem; border-radius:5px; font-size:1rem; width:100%; cursor:pointer; }
+    .btn-gold-solid:hover { background:#b88e2a; color:#fff; }
+
+    /* Timetable grid */
+    .timetable-section { display:none; }
+    .timetable-section.visible { display:block; }
+    .timetable-table { width:100%; border-collapse:collapse; font-size:.8rem; }
+    .timetable-table th { background:var(--navy); color:#fff; padding:.5rem .4rem; text-align:center; font-weight:700; }
+    .timetable-table td { border:1px solid #dee2e6; padding:.45rem .4rem; text-align:center; font-size:.78rem; }
+    .timetable-table tr:nth-child(even) td:first-child { background:#f0f4f8; }
+    .timetable-table td:first-child { background:#f0f4f8; font-weight:700; color:var(--navy); white-space:nowrap; }
+    .cell-math { background:#dbeafe; }
+    .cell-phys { background:#dcfce7; }
+    .cell-chem { background:#fef9c3; }
+    .cell-bio  { background:#fce7f3; }
+    .cell-econ { background:#ede9fe; }
+    .cell-eng  { background:#ffedd5; }
+    .cell-pp   { background:#fee2e2; font-weight:700; }
+    .cell-rest { background:#f3f4f6; color:#9ca3af; font-style:italic; }
+
+    /* Article section */
+    .article-section h2 { color:var(--navy); font-weight:800; font-size:1.7rem; }
+    .article-section h3 { color:var(--navy); font-weight:700; font-size:1.15rem; margin-top:1.5rem; }
+    .article-section p { line-height:1.8; }
+
+    /* FAQ */
+    .faq-section { background:#f8f9fa; padding:3rem 0; }
+    .faq-section h2 { color:var(--navy); font-weight:800; }
+    .accordion-button:not(.collapsed) { background:var(--navy); color:#fff; }
+    .accordion-button:not(.collapsed)::after { filter:invert(1); }
+    .accordion-button:focus { box-shadow:none; }
+
+    /* CTA */
+    .cta-strip { background:var(--navy); color:#fff; padding:2.5rem 0; text-align:center; }
+    .cta-strip h2 { font-weight:800; font-size:1.5rem; }
+
+    .goalpac-footer { background:#021830; color:rgba(255,255,255,.7); padding:2rem 0 1rem; }
+    .footer-independence-banner { background:rgba(255,255,255,.07); border-radius:6px; padding:1rem 1.25rem; font-size:.82rem; margin-bottom:1.2rem; }
+    .footer-bottom-bar { font-size:.8rem; color:rgba(255,255,255,.45); padding-top:1rem; border-top:1px solid rgba(255,255,255,.1); }
+
+    .range-label { display:flex; justify-content:space-between; font-size:.82rem; color:#666; }
+    .hours-display { font-size:1.3rem; font-weight:800; color:var(--gold); }
+  </style>
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="navbar navbar-expand-xl goalpac-navbar py-2 sticky-top">
+  <div class="container-xl">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../assets/images/goalpac-logo-white-bg.jpg" alt="GOALPAc Logo" />
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon" style="filter:invert(1);"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-xl-center gap-xl-1 py-2 py-xl-0">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="../programmes.html">Programmes</a></li>
+        <li class="nav-item"><a class="nav-link" href="../subjects/index.html">Subjects</a></li>
+        <li class="nav-item"><a class="nav-link" href="../how-it-works.html">How It Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="../admissions.html">Admissions</a></li>
+        <li class="nav-item"><a class="nav-link" href="../exams.html">Exam Centre</a></li>
+        <li class="nav-item"><a class="nav-link" href="../support/parents.html">Parents' Hub</a></li>
+        <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+        <li class="nav-item ms-xl-3">
+          <a class="btn-gold" href="../index.html#trial-section">Book Free Trial</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ BREADCRUMB ═══ -->
+<div class="breadcrumb-bar">
+  <div class="container-xl">
+    <a href="../index.html">Home</a><span class="sep">›</span>
+    <a href="../tools/">Tools</a><span class="sep">›</span>
+    <span style="color:#555;">Revision Timetable Generator</span>
+  </div>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<section class="page-hero">
+  <div class="container-xl">
+    <div class="eyebrow"><i class="fa-solid fa-calendar-check me-1"></i> FREE STUDENT TOOLS</div>
+    <h1>Free Revision Timetable Generator</h1>
+    <p class="lead">Stop guessing what to revise next. Tell us your subjects, exam dates and how much time you have, and we will build a balanced week-by-week plan that covers every topic and leaves time for past papers.</p>
+  </div>
+</section>
+
+<!-- ═══ MAIN ═══ -->
+<main class="py-5">
+  <div class="container-xl">
+
+    <!-- Generator Form -->
+    <div class="form-section mb-5">
+      <h2 class="fw-bold mb-1" style="color:var(--navy);">Build Your Personalised Timetable</h2>
+      <p class="text-muted mb-4">Fill in the fields below and click Generate — your custom 8-week plan will appear instantly.</p>
+
+      <form id="timetable-form" onsubmit="generateTimetable(event)">
+        <div class="row g-4">
+
+          <!-- Subjects -->
+          <div class="col-12">
+            <label class="form-label fs-6"><i class="fa-solid fa-book me-2" style="color:var(--gold);"></i>Select Your Subjects</label>
+            <div class="row row-cols-2 row-cols-md-3 g-2">
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-math" value="Mathematics" /><label class="form-check-label" for="s-math">Mathematics</label></div></div>
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-phys" value="Physics" /><label class="form-check-label" for="s-phys">Physics</label></div></div>
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-chem" value="Chemistry" /><label class="form-check-label" for="s-chem">Chemistry</label></div></div>
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-bio" value="Biology" /><label class="form-check-label" for="s-bio">Biology</label></div></div>
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-econ" value="Economics" /><label class="form-check-label" for="s-econ">Economics</label></div></div>
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-biz" value="Business Studies" /><label class="form-check-label" for="s-biz">Business Studies</label></div></div>
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-eng" value="English Language" /><label class="form-check-label" for="s-eng">English Language</label></div></div>
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-cs" value="Computer Science" /><label class="form-check-label" for="s-cs">Computer Science</label></div></div>
+              <div class="col"><div class="form-check"><input class="form-check-input" type="checkbox" id="s-acc" value="Accounting" /><label class="form-check-label" for="s-acc">Accounting</label></div></div>
+            </div>
+          </div>
+
+          <!-- Study hours -->
+          <div class="col-md-6">
+            <label class="form-label"><i class="fa-solid fa-clock me-2" style="color:var(--gold);"></i>Study Hours Per Week</label>
+            <input type="range" class="form-range" id="study-hours" min="5" max="40" value="20" oninput="updateHoursDisplay(this.value)" />
+            <div class="range-label"><span>5 hrs</span><span class="hours-display"><span id="hours-val">20</span> hrs / week</span><span>40 hrs</span></div>
+          </div>
+
+          <!-- Exam start date -->
+          <div class="col-md-6">
+            <label class="form-label" for="exam-date"><i class="fa-solid fa-calendar-day me-2" style="color:var(--gold);"></i>Exam Start Date</label>
+            <input type="date" class="form-control" id="exam-date" />
+          </div>
+
+          <!-- Weakest subjects -->
+          <div class="col-12">
+            <label class="form-label" for="weak-subjects"><i class="fa-solid fa-triangle-exclamation me-2" style="color:var(--gold);"></i>Weakest Subjects (hold Ctrl / Cmd to select multiple)</label>
+            <select class="form-select" id="weak-subjects" multiple size="4">
+              <option>Mathematics</option>
+              <option>Physics</option>
+              <option>Chemistry</option>
+              <option>Biology</option>
+              <option>Economics</option>
+              <option>Business Studies</option>
+              <option>English Language</option>
+              <option>Computer Science</option>
+              <option>Accounting</option>
+            </select>
+            <div class="form-text">Weaker subjects will receive additional sessions in your plan.</div>
+          </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn-gold-solid">
+              <i class="fa-solid fa-wand-magic-sparkles me-2"></i>Generate My Timetable
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- ── OUTPUT SECTION ── -->
+    <div id="timetable-output" class="timetable-section mb-5">
+      <h2 class="fw-bold mb-1" style="color:var(--navy);">Your 8-Week Revision Plan</h2>
+      <p class="text-muted mb-3">Sample allocation based on your inputs. Final two weeks focus on timed past papers.</p>
+
+      <div class="note-parchment mb-4">
+        <i class="fa-solid fa-lightbulb me-2" style="color:var(--gold);"></i>
+        <strong>How your plan works:</strong> Weaker subjects receive more sessions each week. One evening per week is a rest period. The final two weeks shift entirely to timed past-paper practice.
+      </div>
+
+      <div class="table-responsive">
+        <table class="timetable-table" id="timetable-grid">
+          <thead>
+            <tr>
+              <th>Week</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+              <th>Sunday</th>
+            </tr>
+          </thead>
+          <tbody id="timetable-body">
+            <!-- Filled by JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div><!-- /container -->
+</main>
+
+<!-- ═══ ARTICLE SECTION ═══ -->
+<section class="article-section py-5" style="background:#fff;">
+  <div class="container-xl">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <h2>How to Stick to a Revision Timetable</h2>
+        <p>Every student starts the school year with the best intentions. The timetable is drawn up, the colour-coding is immaculate, and the post-it notes are firmly attached to the bedroom wall. Three weeks later, the plan has been quietly abandoned and a cycle of last-minute cramming takes hold. Sound familiar? The good news is that sticking to a revision timetable is not about willpower — it is about design. Here is how to build a plan you will actually follow.</p>
+
+        <h3>1. Start with a Diagnostic of Weak Topics</h3>
+        <p>Before you allocate a single hour, sit a brief diagnostic test in each subject — a past-paper question or a topic quiz — and identify where you are currently losing marks. There is very little value in spending three hours revising a chapter you already understand well. Honest self-assessment at the outset means your timetable directs effort exactly where it is needed. Many students find it useful to score themselves on every chapter from 1 (very weak) to 5 (confident) and then use that ranking to weight their weekly sessions.</p>
+
+        <h3>2. Allocate Revision Blocks of 45–50 Minutes</h3>
+        <p>The research on cognitive load is consistent: sustained concentration declines sharply after roughly 45 minutes of effortful study. Build your day around Pomodoro-style blocks of 45–50 minutes of focused revision followed by a strict 10-minute break. During the break, step away from your desk — walk, stretch, or make a drink — but do not check social media, as the dopamine spike will make it harder to return to work. After four blocks, take a longer break of 30 minutes.</p>
+
+        <h3>3. Mix Subjects Within a Day</h3>
+        <p>Spending an entire day on a single subject feels productive but is rarely effective. The brain consolidates learning better when it is asked to switch contexts. A well-designed day might move from a Mathematics session in the morning to Chemistry after lunch and English Language in the late afternoon. This interleaving effect is one of the most robust findings in cognitive science and directly benefits recall in exam conditions, where you must switch between subjects from one paper to the next.</p>
+
+        <h3>4. Reserve One Rest Evening Per Week</h3>
+        <p>Burnout is the most common reason students fall off a revision schedule. Your brain needs recovery time just as an athlete's muscles do. Protect at least one full evening every week as non-negotiable rest — ideally the same evening each week so that anticipating it becomes a motivational anchor. Students who take consistent rest periods outperform those who study seven days a week without pause, both in terms of wellbeing and exam results.</p>
+
+        <h3>5. Stop New Learning the Night Before an Exam</h3>
+        <p>The night before a paper is not the moment to introduce unfamiliar material. Your working memory is finite and cluttering it with half-understood new content risks overwriting the confident knowledge you have spent weeks building. Instead, use the final evening to read through condensed notes on topics you already know, get your equipment and documents ready, and sleep at a reasonable hour. Sleep is not optional — it is when the hippocampus consolidates the day's learning into long-term memory.</p>
+
+        <h3>6. Use Past-Paper Sessions as Confidence Benchmarks</h3>
+        <p>Passive revision — reading notes, watching videos, highlighting textbooks — creates an illusion of competence. The only genuine measure of exam readiness is performing under timed, exam-like conditions. Reserve the final two weeks of your revision plan exclusively for past-paper practice. Mark each paper using the official mark scheme, record your score, and identify the question types that cost you marks. Then return to those specific topics for targeted review before the next mock sitting. A student who has sat twelve past papers under timed conditions is dramatically better prepared than one who has spent the same hours re-reading a textbook.</p>
+
+        <p>At GOALPAc, our tutors integrate all six of these strategies into every student's learning journey. Our live online sessions include regular topic checks, timed mock questions within class, and individual feedback on past-paper responses. <a href="../admissions.html" style="color:var(--navy); font-weight:600;">Book a free trial class</a> to experience the GOALPAc approach for yourself.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section class="faq-section">
+  <div class="container-xl">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="mb-4 text-center">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+
+          <div class="accordion-item border-0 mb-3 shadow-sm">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                How many hours a day should I revise?
+              </button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>For most students, four to six hours of <em>focused</em> revision per day is realistic and sustainable during intensive exam preparation. This equates to five or six 45-minute blocks with proper breaks. Attempting to study for eight or ten hours straight almost always results in very low quality absorption and rapid burnout. Quality beats quantity every time — a fully focused four-hour session will outperform eight hours of distracted half-revision.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-0 mb-3 shadow-sm">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                When should I start revision?
+              </button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Ideally, structured revision begins eight to twelve weeks before your first paper. This gives you enough time to cover all topics at a manageable pace, leave two full weeks for past-paper practice, and still have buffer time if you fall behind on a difficult chapter. Starting earlier than twelve weeks can be beneficial for students with many subjects, but the intensity can be spread more gradually. Starting later than six weeks creates significant pressure and usually results in shallow coverage.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-0 shadow-sm">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                Should I revise all subjects every day?
+              </button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Not necessarily — it depends on how many subjects you are sitting and the time available. For students with four or more subjects, rotating two or three subjects per day and returning to each one every two to three days is a good approach. This achieves the interleaving benefits without the context-switching overhead of cramming six subjects into a single day. The GOALPAc timetable generator uses this logic automatically when it builds your plan.</p>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /accordion -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section class="cta-strip">
+  <div class="container-xl">
+    <h2 class="mb-3">Get Expert Guidance Alongside Your Revision Plan</h2>
+    <p class="mb-4" style="color:rgba(255,255,255,.8);">Our specialist tutors ensure your timetable translates into real exam performance.</p>
+    <a href="../index.html#trial-section" class="btn px-5 py-3 fw-700" style="background:var(--gold); color:#fff; border:none; border-radius:5px; font-size:1.05rem;">
+      <i class="fa-solid fa-star me-2"></i>Book a Free Trial Class
+    </a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="goalpac-footer">
+  <div class="container-xl">
+    <div class="footer-independence-banner">
+      <strong class="text-white">Independence Statement:</strong> GOALPAc is an independent education provider and is not affiliated with, or endorsed by, Cambridge University Press &amp; Assessment or Pearson Edexcel. All trademarks belong to their respective owners.
+    </div>
+    <div class="footer-bottom-bar text-center">
+      &copy; 2026 Global O and A Level Preparation Academy (GOALPAc). All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  function updateHoursDisplay(val) {
+    document.getElementById('hours-val').textContent = val;
+  }
+
+  // Sample timetable data — 8 weeks
+  const WEEK_DATA = [
+    { label:'Week 1', cells:['Mathematics','Physics','Chemistry','Mathematics','Biology','English Language','REST'] },
+    { label:'Week 2', cells:['Chemistry','Mathematics','Biology','Physics','Mathematics','Economics','REST'] },
+    { label:'Week 3', cells:['Physics','Biology','Mathematics','Chemistry','Economics','Mathematics','REST'] },
+    { label:'Week 4', cells:['Mathematics','Chemistry','Economics','Biology','Physics','Mathematics','REST'] },
+    { label:'Week 5', cells:['Biology','Mathematics','Physics','Economics','Chemistry','English Language','REST'] },
+    { label:'Week 6', cells:['Mathematics','Economics','Chemistry','Physics','Mathematics','Biology','REST'] },
+    { label:'Week 7 ★','cells':['Past Paper','Past Paper','Past Paper','Past Paper','Past Paper','Past Paper','REST'] },
+    { label:'Week 8 ★','cells':['Past Paper','Past Paper','Past Paper','Past Paper','Past Paper','Past Paper','REST'] },
+  ];
+
+  const CELL_CLASSES = {
+    'Mathematics':'cell-math','Physics':'cell-phys','Chemistry':'cell-chem',
+    'Biology':'cell-bio','Economics':'cell-econ','English Language':'cell-eng',
+    'Past Paper':'cell-pp','REST':'cell-rest'
+  };
+
+  function generateTimetable(e) {
+    e.preventDefault();
+
+    // Get selected subjects
+    const checked = [...document.querySelectorAll('input[type=checkbox]:checked')].map(c => c.value);
+
+    // Build tbody
+    const tbody = document.getElementById('timetable-body');
+    tbody.innerHTML = '';
+
+    WEEK_DATA.forEach(week => {
+      const tr = document.createElement('tr');
+      const th = document.createElement('td');
+      th.textContent = week.label;
+      tr.appendChild(th);
+
+      week.cells.forEach(subj => {
+        const td = document.createElement('td');
+        // If week is past paper week, show PP
+        const displaySubj = (week.label.includes('★')) ? subj : (checked.length > 0 && subj !== 'REST' ? checked[Math.floor(Math.random() * checked.length)] : subj);
+        td.textContent = week.label.includes('★') ? subj : displaySubj;
+        const cls = CELL_CLASSES[week.label.includes('★') ? subj : displaySubj] || '';
+        if (cls) td.classList.add(cls);
+        tr.appendChild(td);
+      });
+
+      tbody.appendChild(tr);
+    });
+
+    const output = document.getElementById('timetable-output');
+    output.classList.add('visible');
+    output.scrollIntoView({ behavior:'smooth', block:'start' });
+  }
+</script>
+</body>
+</html>
